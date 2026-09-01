@@ -117,7 +117,7 @@
 </div>
 
 <script>
-const BUILD = "2026-09-02.1";
+const BUILD = "2026-09-02.2";
 document.getElementById("build").textContent = "build " + BUILD;
 
 const fmtInt = n => (n || 0).toLocaleString();
@@ -141,17 +141,19 @@ const RUN_MEANING = {
 
 function heroCard(ch){
   const today = ch.days[0] || {uploaded:0, due:0};
-  const done = today.uploaded, due = today.due;
-  let cls = "ok", note = "Aaj ka kaam pura";
-  if (due === 0)        { cls = "mut";  note = "Aaj ka pehla slot abhi aaya nahi"; }
-  else if (done >= due) { cls = "ok";   note = "Aaj ka kaam pura"; }
-  else if (done > 0)    { cls = "warn"; note = (due - done) + " upload reh gaya"; }
-  else                  { cls = "bad";  note = "Aaj abhi tak kuch upload nahi hua"; }
+  const done = today.uploaded, due = today.due, target = ch.videos_per_day;
+  let cls, note;
+  if (done >= target)      { cls = "ok";   note = "Aaj ka kaam pura"; }
+  else if (done >= due)    { cls = "ok";   note = "Ab tak sab theek — slot " +
+                                                  (done + 1) + " abhi aana hai"; }
+  else if (done > 0)       { cls = "warn"; note = (due - done) + " upload reh gaya"; }
+  else if (due === 0)      { cls = "warn"; note = "Aaj ka pehla slot abhi aaya nahi"; }
+  else                     { cls = "bad";  note = "Aaj abhi tak kuch upload nahi hua"; }
 
   return `<div class="card hero">
-    <div class="big">${done} / ${ch.videos_per_day}</div>
+    <div class="big">${done} / ${target}</div>
     <div class="label">aaj upload huye</div>
-    <div class="pill ${cls === "mut" ? "warn" : cls}">${note}</div>
+    <div class="pill ${cls}">${note}</div>
   </div>`;
 }
 
@@ -186,11 +188,13 @@ function historyCard(ch){
   const days = ch.days.slice().reverse();
   const dots = days.map(d => {
     let cls = "";
-    if (d.due === 0) cls = "";
+    if (d.before_launch || d.due === 0) cls = "";
     else if (d.uploaded >= d.due) cls = "ok";
     else if (d.uploaded > 0) cls = "part";
     else cls = "miss";
-    return `<div class="dot ${cls}" title="${d.date}: ${d.uploaded}/${d.due}"></div>`;
+    const tip = d.before_launch ? d.date + ": channel abhi live nahi tha"
+                               : `${d.date}: ${d.uploaded}/${d.due}`;
+    return `<div class="dot ${cls}" title="${tip}"></div>`;
   }).join("");
   return `<h2>Pichlay 14 din</h2><div class="card">
     <div class="strip">${dots}</div>
