@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ch1-uploader</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin:0; padding:2.5rem 1.25rem; font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+         max-width:44rem; margin-inline:auto; }
+  h1 { font-size:1.6rem; margin:0 0 .25rem; }
+  .sub { color:#666; margin:0 0 2rem; }
+  h2 { font-size:1.1rem; margin:2rem 0 .5rem; }
+  ul { padding-left:1.2rem; }
+  a { color:#0b5fff; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid #8883; color:#666; font-size:.9rem; }
+  @media (prefers-color-scheme: dark) { .sub, footer { color:#aaa; } a { color:#7aa7ff; } }
+</style>
+</head>
+<body>
+  <h1>ch1-uploader</h1>
+  <p class="sub">A personal tool that publishes its owner's own short videos to their own YouTube channel.</p>
+
+  <h2>What it does</h2>
+  <p>
+    ch1-uploader is a private automation used by a single person to publish their own
+    short-form videos to their own YouTube channel on a fixed daily schedule. It is not
+    a product, it is not offered to other users, and it has no sign-up.
+  </p>
+
+  <h2>What access it asks for</h2>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/youtube.upload</code> — permission to upload a video to the account owner's own YouTube channel.</li>
+  </ul>
+  <p>That is the only scope it requests. It cannot read, edit, or delete anything else in the account.</p>
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy policy</a></li>
+    <li><a href="terms.html">Terms of service</a></li>
+  </ul>
+
+  <footer>Operated by the account owner for personal use.</footer>
+</body>
+</html>
