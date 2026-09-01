@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — ch1-uploader</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin:0; padding:2.5rem 1.25rem; font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+         max-width:44rem; margin-inline:auto; }
+  h1 { font-size:1.6rem; margin:0 0 .25rem; }
+  .sub { color:#666; margin:0 0 2rem; }
+  h2 { font-size:1.1rem; margin:2rem 0 .5rem; }
+  ul { padding-left:1.2rem; }
+  a { color:#0b5fff; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid #8883; color:#666; font-size:.9rem; }
+  @media (prefers-color-scheme: dark) { .sub, footer { color:#aaa; } a { color:#7aa7ff; } }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="sub">ch1-uploader · last updated 2 September 2026</p>
+
+  <h2>Who this covers</h2>
+  <p>
+    ch1-uploader is a personal automation operated by a single individual for their own
+    YouTube channel. There are no other users. The only Google Account it ever connects
+    to is the owner's own account, which they authorize themselves.
+  </p>
+
+  <h2>What data is accessed</h2>
+  <p>The application requests exactly one Google API scope:</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/youtube.upload</code> — upload a video to the owner's own YouTube channel.</li>
+  </ul>
+  <p>
+    It does not request access to email, contacts, files, profile data, watch history, or
+    any other Google service. It cannot read existing videos, comments, or analytics.
+  </p>
+
+  <h2>What is stored</h2>
+  <ul>
+    <li>An OAuth refresh token for the owner's own account, held as an encrypted secret in the owner's private GitHub repository and used only to obtain short-lived upload tokens.</li>
+    <li>A small database of which of the owner's own videos have already been published, so the same one is not posted twice. It contains video identifiers, titles, view counts and timestamps — no personal data.</li>
+  </ul>
+
+  <h2>What is not done</h2>
+  <ul>
+    <li>No data is sold, rented, or shared with third parties.</li>
+    <li>No advertising, profiling, tracking, or analytics of any kind.</li>
+    <li>No data is collected from anyone other than the owner.</li>
+    <li>Google user data is never used to train any AI or machine-learning model.</li>
+  </ul>
+
+  <h2>Retention and deletion</h2>
+  <p>
+    The refresh token remains valid until the owner revokes it. Access can be withdrawn at
+    any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+    which immediately and permanently ends the application's access. Deleting the repository
+    erases the stored token and the publication record.
+  </p>
+
+  <h2>Limited Use</h2>
+  <p>
+    Use of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    including its Limited Use requirements.
+  </p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be sent to the developer contact address registered on the Google Cloud project for this application.</p>
+
+  <footer><a href="index.html">← Back</a></footer>
+</body>
+</html>
