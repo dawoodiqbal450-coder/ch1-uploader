@@ -1,0 +1,114 @@
+{
+ "generated_at": "2026-09-01T23:36:45+00:00",
+ "retry_window_minutes": 100,
+ "channels": [
+  {
+   "id": "channel_1",
+   "name": "Nikita Harivansh",
+   "tiktok": "nikita_harivansh",
+   "videos_per_day": 2,
+   "upload_mode": "popular_split",
+   "slots_utc": {
+    "1": "22:00",
+    "2": "00:00"
+   },
+   "next_run_utc": "2026-09-02T00:00:00+00:00",
+   "next_run_slot": 2,
+   "library": {
+    "uploaded": 1
+   },
+   "tracked": 1,
+   "uploads": [
+    {
+     "tiktok_id": "7680563338287353108",
+     "title": "Gentle yoga for PCOD, PCOS & irregular periods \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Practice consist...",
+     "tiktok_views": 42700,
+     "youtube_id": "geUczidkw4M",
+     "slot": 1,
+     "at": "2026-09-01T23:08:11+00:00"
+    }
+   ],
+   "runs": [
+    {
+     "date": "2026-09-01",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7680563338287353108",
+     "at": "2026-09-01T23:08:11+00:00"
+    }
+   ],
+   "days": [
+    {
+     "date": "2026-09-01",
+     "uploaded": 1,
+     "due": 1
+    },
+    {
+     "date": "2026-08-31",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-30",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-29",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-28",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-27",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-26",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-25",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-24",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-23",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-22",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-21",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-20",
+     "uploaded": 0,
+     "due": 2
+    },
+    {
+     "date": "2026-08-19",
+     "uploaded": 0,
+     "due": 2
+    }
+   ]
+  }
+ ]
+}
