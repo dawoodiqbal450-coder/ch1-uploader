@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Upload Status</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Uploads">
+<meta name="theme-color" content="#0f1115">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%98%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    color-scheme: light dark;
+    --bg:#f4f5f7; --card:#ffffff; --ink:#14161a; --muted:#6b7280; --line:#e3e6ea;
+    --ok:#0f9d58; --okbg:#e6f5ec; --warn:#c77700; --warnbg:#fdf3e2;
+    --bad:#d13438; --badbg:#fdeaea; --accent:#2563eb;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0f1115; --card:#181b21; --ink:#e8eaed; --muted:#9aa2ad; --line:#272b33;
+      --ok:#43d17c; --okbg:#12291d; --warn:#f0ad3e; --warnbg:#2b2213;
+      --bad:#ff6b6f; --badbg:#2c1618; --accent:#6ea8fe;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:34rem; margin:0 auto; padding:1rem 1rem 3rem;}
+
+  header{display:flex; align-items:baseline; justify-content:space-between; gap:.5rem; margin:.5rem 0 1rem;}
+  h1{font-size:1.15rem; margin:0; letter-spacing:-.01em}
+  .sub{color:var(--muted); font-size:.8rem}
+
+  .card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+        padding:1rem; margin-bottom:.85rem;}
+
+  .hero{text-align:center; padding:1.4rem 1rem;}
+  .hero .big{font-size:2.6rem; font-weight:700; line-height:1.1; letter-spacing:-.02em}
+  .hero .label{font-size:.95rem; color:var(--muted); margin-top:.15rem}
+  .pill{display:inline-block; padding:.28rem .7rem; border-radius:999px;
+        font-size:.8rem; font-weight:600; margin-top:.7rem}
+  .pill.ok{background:var(--okbg); color:var(--ok)}
+  .pill.warn{background:var(--warnbg); color:var(--warn)}
+  .pill.bad{background:var(--badbg); color:var(--bad)}
+
+  .next{display:flex; align-items:center; justify-content:space-between; gap:1rem}
+  .next .t{font-size:1.5rem; font-weight:700; font-variant-numeric:tabular-nums; letter-spacing:-.01em}
+  .next .d{font-size:.8rem; color:var(--muted)}
+
+  h2{font-size:.75rem; text-transform:uppercase; letter-spacing:.07em;
+     color:var(--muted); margin:1.4rem .25rem .5rem; font-weight:600}
+
+  .up{display:flex; gap:.7rem; padding:.6rem 0; border-bottom:1px solid var(--line);
+      text-decoration:none; color:inherit}
+  .up:last-child{border-bottom:0}
+  .up img{width:74px; height:42px; object-fit:cover; border-radius:7px; background:var(--line); flex:none}
+  .up .m{min-width:0; flex:1}
+  .up .ti{font-size:.86rem; font-weight:500; overflow:hidden; text-overflow:ellipsis;
+          display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical}
+  .up .me{font-size:.72rem; color:var(--muted); margin-top:.15rem}
+
+  .strip{display:flex; gap:4px; flex-wrap:wrap}
+  .dot{flex:1; min-width:16px; height:30px; border-radius:5px; background:var(--line);
+       position:relative; cursor:default}
+  .dot.ok{background:var(--ok)} .dot.part{background:var(--warn)} .dot.miss{background:var(--bad)}
+  .legend{display:flex; gap:.9rem; flex-wrap:wrap; margin-top:.6rem; font-size:.72rem; color:var(--muted)}
+  .legend i{display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:.3rem}
+
+  .run{display:flex; gap:.6rem; align-items:flex-start; padding:.5rem 0;
+       border-bottom:1px solid var(--line); font-size:.8rem}
+  .run:last-child{border-bottom:0}
+  .run .tag{flex:none; padding:.12rem .45rem; border-radius:5px; font-size:.68rem; font-weight:700}
+  .run .tag.ok{background:var(--okbg); color:var(--ok)}
+  .run .tag.warn{background:var(--warnbg); color:var(--warn)}
+  .run .tag.bad{background:var(--badbg); color:var(--bad)}
+  .run .tag.mut{background:var(--line); color:var(--muted)}
+  .run .msg{min-width:0}
+  .run .why{color:var(--muted); font-size:.72rem}
+
+  .kv{display:flex; justify-content:space-between; padding:.35rem 0; font-size:.85rem;
+      border-bottom:1px solid var(--line)}
+  .kv:last-child{border-bottom:0}
+  .kv span:last-child{color:var(--muted); font-variant-numeric:tabular-nums}
+
+  footer{text-align:center; color:var(--muted); font-size:.7rem; margin-top:1.5rem; line-height:1.7}
+  .err{background:var(--badbg); color:var(--bad); padding:.8rem; border-radius:var(--radius);
+       font-size:.85rem}
+
+  /* iOS safe-area insets MUST stay last: mobile media queries above reset
+     padding, and without this the toolbar sits under the Dynamic Island. */
+  @supports (padding: max(0px)) {
+    .wrap{
+      padding-left: max(1rem, env(safe-area-inset-left));
+      padding-right: max(1rem, env(safe-area-inset-right));
+      padding-top: max(1rem, env(safe-area-inset-top));
+      padding-bottom: max(3rem, env(safe-area-inset-bottom));
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="cname">Loading…</h1>
+    <span class="sub" id="stamp"></span>
+  </header>
+  <div id="root"></div>
+  <footer>
+    Har run ke baad khud update hota hai · <span id="build"></span>
+  </footer>
+</div>
+
+<script>
+const BUILD = "2026-09-02.1";
+document.getElementById("build").textContent = "build " + BUILD;
+
+const fmtInt = n => (n || 0).toLocaleString();
+const two = n => String(n).padStart(2, "0");
+
+function localTime(iso){
+  const d = new Date(iso);
+  return d.toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"});
+}
+function localDay(iso){
+  return new Date(iso).toLocaleDateString([], {day:"numeric", month:"short"});
+}
+
+// Roman Urdu meanings, so a status never needs looking up elsewhere.
+const RUN_MEANING = {
+  success:    ["ok",   "Upload ho gaya"],
+  skipped:    ["mut",  "Skip — is slot ka kaam pehle ho chuka tha (normal hai)"],
+  no_content: ["warn", "Koi nayi video nahi bachi thi"],
+  failed:     ["bad",  "Fail hua — retry apne aap chalega"]
+};
+
+function heroCard(ch){
+  const today = ch.days[0] || {uploaded:0, due:0};
+  const done = today.uploaded, due = today.due;
+  let cls = "ok", note = "Aaj ka kaam pura";
+  if (due === 0)        { cls = "mut";  note = "Aaj ka pehla slot abhi aaya nahi"; }
+  else if (done >= due) { cls = "ok";   note = "Aaj ka kaam pura"; }
+  else if (done > 0)    { cls = "warn"; note = (due - done) + " upload reh gaya"; }
+  else                  { cls = "bad";  note = "Aaj abhi tak kuch upload nahi hua"; }
+
+  return `<div class="card hero">
+    <div class="big">${done} / ${ch.videos_per_day}</div>
+    <div class="label">aaj upload huye</div>
+    <div class="pill ${cls === "mut" ? "warn" : cls}">${note}</div>
+  </div>`;
+}
+
+function nextCard(ch){
+  if (!ch.next_run_utc) return "";
+  return `<div class="card next">
+    <div>
+      <div class="d">Agla upload — slot ${ch.next_run_slot}</div>
+      <div class="t" id="countdown">—</div>
+    </div>
+    <div style="text-align:right">
+      <div class="d">aap ke waqt ke mutabiq</div>
+      <div style="font-weight:600">${localTime(ch.next_run_utc)}</div>
+    </div>
+  </div>`;
+}
+
+function uploadsCard(ch){
+  if (!ch.uploads.length) return "";
+  const rows = ch.uploads.slice(0, 8).map(u => `
+    <a class="up" href="https://www.youtube.com/watch?v=${u.youtube_id}" target="_blank" rel="noopener">
+      <img loading="lazy" src="https://i.ytimg.com/vi/${u.youtube_id}/mqdefault.jpg" alt="">
+      <div class="m">
+        <div class="ti">${escapeHtml(u.title || "(no title)")}</div>
+        <div class="me">${localDay(u.at)} ${localTime(u.at)} · slot ${u.slot} · TikTok pe ${fmtInt(u.tiktok_views)} views</div>
+      </div>
+    </a>`).join("");
+  return `<h2>Recent uploads</h2><div class="card">${rows}</div>`;
+}
+
+function historyCard(ch){
+  const days = ch.days.slice().reverse();
+  const dots = days.map(d => {
+    let cls = "";
+    if (d.due === 0) cls = "";
+    else if (d.uploaded >= d.due) cls = "ok";
+    else if (d.uploaded > 0) cls = "part";
+    else cls = "miss";
+    return `<div class="dot ${cls}" title="${d.date}: ${d.uploaded}/${d.due}"></div>`;
+  }).join("");
+  return `<h2>Pichlay 14 din</h2><div class="card">
+    <div class="strip">${dots}</div>
+    <div class="legend">
+      <span><i style="background:var(--ok)"></i>pura</span>
+      <span><i style="background:var(--warn)"></i>adhoora</span>
+      <span><i style="background:var(--bad)"></i>miss</span>
+      <span><i style="background:var(--line)"></i>due nahi tha</span>
+    </div>
+  </div>`;
+}
+
+function runsCard(ch){
+  if (!ch.runs.length) return "";
+  const rows = ch.runs.slice(0, 10).map(r => {
+    const [cls, why] = RUN_MEANING[r.status] || ["mut", ""];
+    return `<div class="run">
+      <span class="tag ${cls}">${r.status}</span>
+      <div class="msg">
+        <div>${localDay(r.at)} · slot ${r.slot}</div>
+        <div class="why">${escapeHtml(why)}</div>
+      </div>
+    </div>`;
+  }).join("");
+  return `<h2>Kya kya hua</h2><div class="card">${rows}</div>`;
+}
+
+function libraryCard(ch){
+  const lib = ch.library || {};
+  const perDay = ch.videos_per_day || 1;
+  const slots = Object.entries(ch.slots_utc)
+    .map(([s, t]) => `slot ${s} — ${utcToLocal(t)}`).join(" · ");
+  return `<h2>Channel</h2><div class="card">
+    <div class="kv"><span>TikTok</span><span>@${ch.tiktok}</span></div>
+    <div class="kv"><span>Roz upload</span><span>${perDay}</span></div>
+    <div class="kv"><span>Ab tak upload</span><span>${fmtInt(lib.uploaded || 0)}</span></div>
+    <div class="kv"><span>Retry queue mein</span><span>${fmtInt(lib.pending_retry || 0)}</span></div>
+    <div class="kv"><span>Permanently fail</span><span>${fmtInt(lib.failed_permanent || 0)}</span></div>
+    <div class="kv"><span>Schedule</span><span>${slots}</span></div>
+  </div>`;
+}
+
+function utcToLocal(hhmm){
+  const [h, m] = hhmm.split(":").map(Number);
+  const d = new Date();
+  d.setUTCHours(h, m, 0, 0);
+  return d.toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"});
+}
+
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, c => (
+    {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]
+  ));
+}
+
+let nextRunAt = null;
+function tickCountdown(){
+  const el = document.getElementById("countdown");
+  if (!el || !nextRunAt) return;
+  let s = Math.floor((nextRunAt - Date.now()) / 1000);
+  if (s <= 0){ el.textContent = "ab chal raha hai…"; return; }
+  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60);
+  el.textContent = h > 0 ? `${h}h ${two(m)}m` : `${m}m ${two(s % 60)}s`;
+}
+setInterval(tickCountdown, 1000);
+
+function render(data){
+  const ch = data.channels && data.channels[0];
+  if (!ch){
+    document.getElementById("root").innerHTML =
+      `<div class="err">Koi channel enabled nahi hai.</div>`;
+    return;
+  }
+  document.getElementById("cname").textContent = ch.name;
+  const gen = new Date(data.generated_at);
+  document.getElementById("stamp").textContent =
+    "updated " + localDay(data.generated_at) + " " + localTime(data.generated_at);
+
+  nextRunAt = ch.next_run_utc ? new Date(ch.next_run_utc).getTime() : null;
+
+  document.getElementById("root").innerHTML =
+    heroCard(ch) + nextCard(ch) + uploadsCard(ch) +
+    historyCard(ch) + runsCard(ch) + libraryCard(ch);
+  tickCountdown();
+}
+
+async function load(){
+  try{
+    const r = await fetch("status.json?t=" + Date.now(), {cache:"no-store"});
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    render(await r.json());
+  }catch(e){
+    document.getElementById("root").innerHTML =
+      `<div class="err">Status load nahi ho saka (${escapeHtml(e.message)}).
+       Pehla run hone ke baad ye khud bhar jayega.</div>`;
+  }
+}
+
+// An installed home-screen app never reloads by itself. Without this check a
+// fix would never reach the phone.
+async function checkBuild(){
+  try{
+    const r = await fetch("version.json?t=" + Date.now(), {cache:"no-store"});
+    if (!r.ok) return;
+    const v = await r.json();
+    if (v.build && v.build !== BUILD) location.reload();
+  }catch(e){ /* offline is fine */ }
+}
+
+load();
+setInterval(load, 60000);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden){ load(); checkBuild(); }
+});
+window.addEventListener("focus", checkBuild);
+</script>
+</body>
+</html>
