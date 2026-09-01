@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T23:36:45+00:00",
+ "generated_at": "2026-09-01T23:38:56+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -46,69 +46,83 @@
     {
      "date": "2026-08-31",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-30",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-29",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-28",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-27",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-26",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-25",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-24",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-23",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-22",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-21",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-20",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     },
     {
      "date": "2026-08-19",
      "uploaded": 0,
-     "due": 2
+     "due": 0,
+     "before_launch": true
     }
-   ]
+   ],
+   "live_since": "2026-09-01"
   }
  ]
 }
