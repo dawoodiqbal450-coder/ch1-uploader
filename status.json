@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T23:31:29+00:00",
+ "generated_at": "2026-09-03T00:02:08+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-03T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-03T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 3
+    "uploaded": 4
    },
-   "tracked": 3,
+   "tracked": 4,
    "uploads": [
+    {
+     "tiktok_id": "7655568840356613397",
+     "title": "Fix your posture with just 1 wall stretch! \ud83e\uddcd\u200d\u2642\ufe0f\u2728 Hold for 30 seconds ...",
+     "tiktok_views": 24800000,
+     "youtube_id": "ymd_NnCizyU",
+     "slot": 2,
+     "at": "2026-09-03T00:02:06+00:00"
+    },
     {
      "tiktok_id": "7680861734780964116",
      "title": "Fix your pelvic posture \u2728 Stretch both sides for 10 seconds each and ...",
@@ -46,6 +54,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-03",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7655568840356613397",
+     "at": "2026-09-03T00:02:06+00:00"
+    },
+    {
      "date": "2026-09-02",
      "slot": 1,
      "status": "success",
@@ -69,9 +84,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-03",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-02",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-01",
@@ -140,12 +160,6 @@
     },
     {
      "date": "2026-08-21",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
-    },
-    {
-     "date": "2026-08-20",
      "uploaded": 0,
      "due": 0,
      "before_launch": true
