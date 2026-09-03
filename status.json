@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T05:27:46+00:00",
+ "generated_at": "2026-09-03T22:02:27+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-03T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-04T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
-    "uploaded": 4
+    "uploaded": 5
    },
-   "tracked": 4,
+   "tracked": 5,
    "uploads": [
+    {
+     "tiktok_id": "7681280236708826388",
+     "title": "Yoga for Cervical Pain \ud83e\uddd8\u200d\u2640\ufe0f Gentle movements to help stretch and rela...",
+     "tiktok_views": 45700,
+     "youtube_id": "Fs2hnlDcQh0",
+     "slot": 1,
+     "at": "2026-09-03T22:02:25+00:00"
+    },
     {
      "tiktok_id": "7655568840356613397",
      "title": "Fix your posture with just 1 wall stretch! \ud83e\uddcd\u200d\u2642\ufe0f\u2728 Hold for 30 seconds ...",
@@ -55,6 +63,13 @@
    "runs": [
     {
      "date": "2026-09-03",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7681280236708826388",
+     "at": "2026-09-03T22:02:25+00:00"
+    },
+    {
+     "date": "2026-09-03",
      "slot": 2,
      "status": "success",
      "message": "uploaded 7655568840356613397",
@@ -85,7 +100,7 @@
    "days": [
     {
      "date": "2026-09-03",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
