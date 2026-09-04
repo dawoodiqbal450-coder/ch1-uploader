@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T23:31:21+00:00",
+ "generated_at": "2026-09-04T00:02:52+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-04T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-04T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 5
+    "uploaded": 6
    },
-   "tracked": 5,
+   "tracked": 6,
    "uploads": [
+    {
+     "tiktok_id": "7655535982367853844",
+     "title": "#AnimalInspiredYoga #yogapose #foryoupage",
+     "tiktok_views": 12900000,
+     "youtube_id": "K8OIr-83oLM",
+     "slot": 2,
+     "at": "2026-09-04T00:02:50+00:00"
+    },
     {
      "tiktok_id": "7681280236708826388",
      "title": "Yoga for Cervical Pain \ud83e\uddd8\u200d\u2640\ufe0f Gentle movements to help stretch and rela...",
@@ -62,6 +70,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-04",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7655535982367853844",
+     "at": "2026-09-04T00:02:50+00:00"
+    },
+    {
      "date": "2026-09-03",
      "slot": 1,
      "status": "success",
@@ -99,9 +114,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-04",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-03",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-02",
@@ -169,12 +189,6 @@
     },
     {
      "date": "2026-08-22",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
-    },
-    {
-     "date": "2026-08-21",
      "uploaded": 0,
      "due": 0,
      "before_launch": true
