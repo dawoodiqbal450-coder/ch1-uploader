@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T03:16:08+00:00",
+ "generated_at": "2026-09-04T22:02:26+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-04T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-05T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
-    "uploaded": 6
+    "uploaded": 7
    },
-   "tracked": 6,
+   "tracked": 7,
    "uploads": [
+    {
+     "tiktok_id": "7681594183882591508",
+     "title": "Unlock Your Deepest Forward Bend \ud83d\udd13\ud83e\uddd8\u200d\u2640\ufe0f Can\u2019t reach your toes yet? Don...",
+     "tiktok_views": 209700,
+     "youtube_id": "nLMblr2Eoes",
+     "slot": 1,
+     "at": "2026-09-04T22:02:24+00:00"
+    },
     {
      "tiktok_id": "7655535982367853844",
      "title": "#AnimalInspiredYoga #yogapose #foryoupage",
@@ -71,6 +79,13 @@
    "runs": [
     {
      "date": "2026-09-04",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7681594183882591508",
+     "at": "2026-09-04T22:02:24+00:00"
+    },
+    {
+     "date": "2026-09-04",
      "slot": 2,
      "status": "success",
      "message": "uploaded 7655535982367853844",
@@ -115,7 +130,7 @@
    "days": [
     {
      "date": "2026-09-04",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
