@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T23:31:22+00:00",
+ "generated_at": "2026-09-05T00:02:48+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-05T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-05T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 7
+    "uploaded": 8
    },
-   "tracked": 7,
+   "tracked": 8,
    "uploads": [
+    {
+     "tiktok_id": "7658600707288796436",
+     "title": "* Thyroid Yoga \u2013 Supports thyroid & metabolism. * Hair Growth Yoga \u2013 ...",
+     "tiktok_views": 10600000,
+     "youtube_id": "rdXI0mr5m44",
+     "slot": 2,
+     "at": "2026-09-05T00:02:46+00:00"
+    },
     {
      "tiktok_id": "7681594183882591508",
      "title": "Unlock Your Deepest Forward Bend \ud83d\udd13\ud83e\uddd8\u200d\u2640\ufe0f Can\u2019t reach your toes yet? Don...",
@@ -78,6 +86,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-05",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7658600707288796436",
+     "at": "2026-09-05T00:02:46+00:00"
+    },
+    {
      "date": "2026-09-04",
      "slot": 1,
      "status": "success",
@@ -129,9 +144,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-05",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-04",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-03",
@@ -198,12 +218,6 @@
     },
     {
      "date": "2026-08-23",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
-    },
-    {
-     "date": "2026-08-22",
      "uploaded": 0,
      "due": 0,
      "before_launch": true
