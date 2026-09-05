@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T03:15:37+00:00",
+ "generated_at": "2026-09-05T22:02:05+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-05T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-06T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
-    "uploaded": 8
+    "uploaded": 9
    },
-   "tracked": 8,
+   "tracked": 9,
    "uploads": [
+    {
+     "tiktok_id": "7681973413887347988",
+     "title": "Relieve back pain with this simple stretch \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Hold the position fo...",
+     "tiktok_views": 67900,
+     "youtube_id": "_LQ8NmyOy1E",
+     "slot": 1,
+     "at": "2026-09-05T22:02:03+00:00"
+    },
     {
      "tiktok_id": "7658600707288796436",
      "title": "* Thyroid Yoga \u2013 Supports thyroid & metabolism. * Hair Growth Yoga \u2013 ...",
@@ -87,6 +95,13 @@
    "runs": [
     {
      "date": "2026-09-05",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7681973413887347988",
+     "at": "2026-09-05T22:02:03+00:00"
+    },
+    {
+     "date": "2026-09-05",
      "slot": 2,
      "status": "success",
      "message": "uploaded 7658600707288796436",
@@ -145,7 +160,7 @@
    "days": [
     {
      "date": "2026-09-05",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
