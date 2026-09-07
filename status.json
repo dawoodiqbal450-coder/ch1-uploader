@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T23:31:37+00:00",
+ "generated_at": "2026-09-07T00:02:09+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-07T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-07T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 11
+    "uploaded": 12
    },
-   "tracked": 11,
+   "tracked": 12,
    "uploads": [
+    {
+     "tiktok_id": "7680074763183672597",
+     "title": "Hold for 10\u201350 seconds. Stretch only as far as your body comfortably ...",
+     "tiktok_views": 7100000,
+     "youtube_id": "0qnyPAWHNuc",
+     "slot": 2,
+     "at": "2026-09-07T00:02:08+00:00"
+    },
     {
      "tiktok_id": "7682393643767926036",
      "title": "Give your internal organs just 10 minutes every morning \ud83e\udec0\ud83e\udec1\u2728 These sim...",
@@ -110,6 +118,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-07",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7680074763183672597",
+     "at": "2026-09-07T00:02:08+00:00"
+    },
+    {
      "date": "2026-09-06",
      "slot": 1,
      "status": "success",
@@ -189,9 +204,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-07",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-06",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-05",
@@ -256,12 +276,6 @@
     },
     {
      "date": "2026-08-25",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
-    },
-    {
-     "date": "2026-08-24",
      "uploaded": 0,
      "due": 0,
      "before_launch": true
