@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T03:16:54+00:00",
+ "generated_at": "2026-09-08T22:02:59+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-08T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-09T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
-    "uploaded": 14
+    "uploaded": 15
    },
-   "tracked": 14,
+   "tracked": 15,
    "uploads": [
+    {
+     "tiktok_id": "7683171635406327061",
+     "title": "Do your legs look like knock knees or bow legs? \ud83d\udc40 Don\u2019t worry! Try th...",
+     "tiktok_views": 71900,
+     "youtube_id": "hZd4mfWXumc",
+     "slot": 1,
+     "at": "2026-09-08T22:02:58+00:00"
+    },
     {
      "tiktok_id": "7648227453676113172",
      "title": "#foryoupage #flexibility #yoga",
@@ -135,6 +143,13 @@
    "runs": [
     {
      "date": "2026-09-08",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7683171635406327061",
+     "at": "2026-09-08T22:02:58+00:00"
+    },
+    {
+     "date": "2026-09-08",
      "slot": 2,
      "status": "success",
      "message": "uploaded 7648227453676113172",
@@ -235,7 +250,7 @@
    "days": [
     {
      "date": "2026-09-08",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
