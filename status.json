@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T23:31:21+00:00",
+ "generated_at": "2026-09-08T00:02:09+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-08T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-08T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 13
+    "uploaded": 14
    },
-   "tracked": 13,
+   "tracked": 14,
    "uploads": [
+    {
+     "tiktok_id": "7648227453676113172",
+     "title": "#foryoupage #flexibility #yoga",
+     "tiktok_views": 6500000,
+     "youtube_id": "oYGhc28qEQA",
+     "slot": 2,
+     "at": "2026-09-08T00:02:07+00:00"
+    },
     {
      "tiktok_id": "7682622149525294356",
      "title": "Does your pelvic posture look like this? \ud83d\udc40 Poor pelvic alignment can ...",
@@ -126,6 +134,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-08",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7648227453676113172",
+     "at": "2026-09-08T00:02:07+00:00"
+    },
+    {
      "date": "2026-09-07",
      "slot": 1,
      "status": "success",
@@ -219,9 +234,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-08",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-07",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-06",
@@ -285,12 +305,6 @@
     },
     {
      "date": "2026-08-26",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
-    },
-    {
-     "date": "2026-08-25",
      "uploaded": 0,
      "due": 0,
      "before_launch": true
