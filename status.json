@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T23:31:32+00:00",
+ "generated_at": "2026-09-10T00:02:03+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-10T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-10T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 17
+    "uploaded": 18
    },
-   "tracked": 17,
+   "tracked": 18,
    "uploads": [
+    {
+     "tiktok_id": "7655639030532508948",
+     "title": "#puppypose #yogagirl",
+     "tiktok_views": 4400000,
+     "youtube_id": "e30hnCZqtkI",
+     "slot": 2,
+     "at": "2026-09-10T00:02:01+00:00"
+    },
     {
      "tiktok_id": "7683506634257222933",
      "title": "\ud83c\udf38 Every Woman Needs These 6 Yoga Poses! 1\ufe0f\u20e3 Lymphatic Drainage & Brea...",
@@ -158,6 +166,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-10",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7655639030532508948",
+     "at": "2026-09-10T00:02:01+00:00"
+    },
+    {
      "date": "2026-09-09",
      "slot": 1,
      "status": "success",
@@ -279,9 +294,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-10",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-09",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-08",
@@ -343,12 +363,6 @@
     },
     {
      "date": "2026-08-28",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
-    },
-    {
-     "date": "2026-08-27",
      "uploaded": 0,
      "due": 0,
      "before_launch": true
