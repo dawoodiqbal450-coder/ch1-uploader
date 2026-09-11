@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T23:31:24+00:00",
+ "generated_at": "2026-09-11T00:02:35+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-11T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-11T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 19
+    "uploaded": 20
    },
-   "tracked": 19,
+   "tracked": 20,
    "uploads": [
+    {
+     "tiktok_id": "7674143205801381141",
+     "title": "Period pain? Try these 4 gentle movements for 45 seconds to help rela...",
+     "tiktok_views": 4300000,
+     "youtube_id": "DjFJNx1zFWM",
+     "slot": 2,
+     "at": "2026-09-11T00:02:33+00:00"
+    },
     {
      "tiktok_id": "7683863385041145108",
      "title": "Still can\u2019t touch your toes? Try this first. \u2728 Practice this stretch ...",
@@ -174,6 +182,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-11",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7674143205801381141",
+     "at": "2026-09-11T00:02:33+00:00"
+    },
+    {
      "date": "2026-09-10",
      "slot": 1,
      "status": "success",
@@ -309,9 +324,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-11",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-10",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-09",
@@ -372,12 +392,6 @@
     },
     {
      "date": "2026-08-29",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
-    },
-    {
-     "date": "2026-08-28",
      "uploaded": 0,
      "due": 0,
      "before_launch": true
