@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T23:31:16+00:00",
+ "generated_at": "2026-09-12T00:02:44+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-12T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-12T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 21
+    "uploaded": 22
    },
-   "tracked": 21,
+   "tracked": 22,
    "uploads": [
+    {
+     "tiktok_id": "7671974258993630484",
+     "title": "Digestive Problems? \ud83e\uddd8\u200d\u2640\ufe0f Try these 8 Yoga Poses to support healthy di...",
+     "tiktok_views": 3400000,
+     "youtube_id": "9zHJp-O-5fo",
+     "slot": 2,
+     "at": "2026-09-12T00:02:42+00:00"
+    },
     {
      "tiktok_id": "7684229821630647572",
      "title": "Give your organs a little daily support \u2764\ufe0f Do each exercise for 30 se...",
@@ -190,6 +198,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-12",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7671974258993630484",
+     "at": "2026-09-12T00:02:42+00:00"
+    },
+    {
      "date": "2026-09-11",
      "slot": 1,
      "status": "success",
@@ -339,9 +354,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-12",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-11",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-10",
@@ -401,12 +421,6 @@
     },
     {
      "date": "2026-08-30",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
-    },
-    {
-     "date": "2026-08-29",
      "uploaded": 0,
      "due": 0,
      "before_launch": true
