@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T03:15:59+00:00",
+ "generated_at": "2026-09-12T22:02:47+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-12T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-13T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
-    "uploaded": 22
+    "uploaded": 23
    },
-   "tracked": 22,
+   "tracked": 23,
    "uploads": [
+    {
+     "tiktok_id": "7684554203875855636",
+     "title": "Pregnant mom-to-be? \ud83e\udd30\u2728 Try these gentle yoga poses to support your bo...",
+     "tiktok_views": 249900,
+     "youtube_id": "BKb0v2KU6O8",
+     "slot": 1,
+     "at": "2026-09-12T22:02:45+00:00"
+    },
     {
      "tiktok_id": "7671974258993630484",
      "title": "Digestive Problems? \ud83e\uddd8\u200d\u2640\ufe0f Try these 8 Yoga Poses to support healthy di...",
@@ -199,6 +207,13 @@
    "runs": [
     {
      "date": "2026-09-12",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7684554203875855636",
+     "at": "2026-09-12T22:02:45+00:00"
+    },
+    {
+     "date": "2026-09-12",
      "slot": 2,
      "status": "success",
      "message": "uploaded 7671974258993630484",
@@ -355,7 +370,7 @@
    "days": [
     {
      "date": "2026-09-12",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
