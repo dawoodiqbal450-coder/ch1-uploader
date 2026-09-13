@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T23:31:18+00:00",
+ "generated_at": "2026-09-13T00:02:30+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-13T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-13T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 23
+    "uploaded": 24
    },
-   "tracked": 23,
+   "tracked": 24,
    "uploads": [
+    {
+     "tiktok_id": "7653042189773163796",
+     "title": "Stop bending like this \u274c You\u2019re not actually stretching your hamstrin...",
+     "tiktok_views": 3300000,
+     "youtube_id": "ZGW8v4T4qN8",
+     "slot": 2,
+     "at": "2026-09-13T00:02:28+00:00"
+    },
     {
      "tiktok_id": "7684554203875855636",
      "title": "Pregnant mom-to-be? \ud83e\udd30\u2728 Try these gentle yoga poses to support your bo...",
@@ -206,6 +214,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-13",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7653042189773163796",
+     "at": "2026-09-13T00:02:28+00:00"
+    },
+    {
      "date": "2026-09-12",
      "slot": 1,
      "status": "success",
@@ -369,9 +384,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-13",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-12",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-11",
@@ -430,12 +450,6 @@
     },
     {
      "date": "2026-08-31",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
-    },
-    {
-     "date": "2026-08-30",
      "uploaded": 0,
      "due": 0,
      "before_launch": true
