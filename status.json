@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T03:16:34+00:00",
+ "generated_at": "2026-09-13T22:02:16+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-13T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-14T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
-    "uploaded": 24
+    "uploaded": 25
    },
-   "tracked": 24,
+   "tracked": 25,
    "uploads": [
+    {
+     "tiktok_id": "7684894422638562580",
+     "title": "I gave my gym brother the viral forward bending pose challenge! \ud83d\udcaa\ud83e\uddd8\u200d\u2640\ufe0f...",
+     "tiktok_views": 401800,
+     "youtube_id": "Oo_jrIVRAPw",
+     "slot": 1,
+     "at": "2026-09-13T22:02:15+00:00"
+    },
     {
      "tiktok_id": "7653042189773163796",
      "title": "Stop bending like this \u274c You\u2019re not actually stretching your hamstrin...",
@@ -215,6 +223,13 @@
    "runs": [
     {
      "date": "2026-09-13",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7684894422638562580",
+     "at": "2026-09-13T22:02:15+00:00"
+    },
+    {
+     "date": "2026-09-13",
      "slot": 2,
      "status": "success",
      "message": "uploaded 7653042189773163796",
@@ -385,7 +400,7 @@
    "days": [
     {
      "date": "2026-09-13",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
