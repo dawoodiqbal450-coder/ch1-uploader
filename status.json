@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T23:31:47+00:00",
+ "generated_at": "2026-09-14T00:02:37+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,13 +12,21 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-14T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-14T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "uploaded": 25
+    "uploaded": 26
    },
-   "tracked": 25,
+   "tracked": 26,
    "uploads": [
+    {
+     "tiktok_id": "7680831371413163284",
+     "title": "Can\u2019t reach or hold your toes in a Forward Bend yet? \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Try this s...",
+     "tiktok_views": 3600000,
+     "youtube_id": "iB3YwieXnKs",
+     "slot": 2,
+     "at": "2026-09-14T00:02:35+00:00"
+    },
     {
      "tiktok_id": "7684894422638562580",
      "title": "I gave my gym brother the viral forward bending pose challenge! \ud83d\udcaa\ud83e\uddd8\u200d\u2640\ufe0f...",
@@ -222,6 +230,13 @@
    ],
    "runs": [
     {
+     "date": "2026-09-14",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7680831371413163284",
+     "at": "2026-09-14T00:02:35+00:00"
+    },
+    {
      "date": "2026-09-13",
      "slot": 1,
      "status": "success",
@@ -399,9 +414,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-14",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-13",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-12",
@@ -462,12 +482,6 @@
      "date": "2026-09-01",
      "uploaded": 1,
      "due": 2
-    },
-    {
-     "date": "2026-08-31",
-     "uploaded": 0,
-     "due": 0,
-     "before_launch": true
     }
    ],
    "live_since": "2026-09-01"
