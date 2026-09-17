@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T23:31:17+00:00",
+ "generated_at": "2026-09-17T00:03:27+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-17T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-17T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "pending_retry": 1,
-    "uploaded": 31
+    "uploaded": 32
    },
-   "tracked": 32,
+   "tracked": 33,
    "uploads": [
+    {
+     "tiktok_id": "7682325842323672341",
+     "title": "Suffering from PCOD, PCOS & Irregular Periods? \ud83c\udf38 Try these 6 yoga pos...",
+     "tiktok_views": 2800000,
+     "youtube_id": "9RGnidTjg34",
+     "slot": 2,
+     "at": "2026-09-17T00:03:25+00:00"
+    },
     {
      "tiktok_id": "7686085093470850325",
      "title": "Do this workout regularly to reduce back fat and make your back look ...",
@@ -251,17 +259,16 @@
      "youtube_id": "jnQOLAuSGKQ",
      "slot": 1,
      "at": "2026-09-02T22:02:00+00:00"
-    },
-    {
-     "tiktok_id": "7648909359073791252",
-     "title": "#foryoupage #yogapractice #flexibility",
-     "tiktok_views": 34600000,
-     "youtube_id": "V5gXTQNsxvg",
-     "slot": 2,
-     "at": "2026-09-02T00:02:09+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-17",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7682325842323672341",
+     "at": "2026-09-17T00:03:25+00:00"
+    },
     {
      "date": "2026-09-16",
      "slot": 1,
@@ -482,9 +489,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-17",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-16",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-15",
@@ -543,11 +555,6 @@
     },
     {
      "date": "2026-09-04",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-03",
      "uploaded": 2,
      "due": 2
     }
