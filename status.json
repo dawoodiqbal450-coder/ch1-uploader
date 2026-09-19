@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T03:15:39+00:00",
+ "generated_at": "2026-09-19T22:02:09+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-19T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-20T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "pending_retry": 1,
-    "uploaded": 36
+    "uploaded": 37
    },
-   "tracked": 37,
+   "tracked": 38,
    "uploads": [
+    {
+     "tiktok_id": "7687187170058145045",
+     "title": "Want to increase your height? \u2728 Try these 4 yoga poses regularly! If ...",
+     "tiktok_views": 21100,
+     "youtube_id": "-JjhmZXQVu8",
+     "slot": 1,
+     "at": "2026-09-19T22:02:07+00:00"
+    },
     {
      "tiktok_id": "7663112152865164564",
      "title": "Thyroid? Try These 5 Yoga Poses \ud83d\udc99 Practice each pose for 10\u201315 second...",
@@ -251,17 +259,16 @@
      "youtube_id": "rdXI0mr5m44",
      "slot": 2,
      "at": "2026-09-05T00:02:46+00:00"
-    },
-    {
-     "tiktok_id": "7681594183882591508",
-     "title": "Unlock Your Deepest Forward Bend \ud83d\udd13\ud83e\uddd8\u200d\u2640\ufe0f Can\u2019t reach your toes yet? Don...",
-     "tiktok_views": 209700,
-     "youtube_id": "nLMblr2Eoes",
-     "slot": 1,
-     "at": "2026-09-04T22:02:24+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-19",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7687187170058145045",
+     "at": "2026-09-19T22:02:07+00:00"
+    },
     {
      "date": "2026-09-19",
      "slot": 2,
@@ -518,7 +525,7 @@
    "days": [
     {
      "date": "2026-09-19",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
