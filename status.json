@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T23:31:18+00:00",
+ "generated_at": "2026-09-19T00:02:28+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-19T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-19T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "pending_retry": 1,
-    "uploaded": 35
+    "uploaded": 36
    },
-   "tracked": 36,
+   "tracked": 37,
    "uploads": [
+    {
+     "tiktok_id": "7663112152865164564",
+     "title": "Thyroid? Try These 5 Yoga Poses \ud83d\udc99 Practice each pose for 10\u201315 second...",
+     "tiktok_views": 2500000,
+     "youtube_id": "0ajARe_TaG0",
+     "slot": 2,
+     "at": "2026-09-19T00:02:26+00:00"
+    },
     {
      "tiktok_id": "7686783751518440725",
      "title": "Too much phone or laptop time can affect your posture. \ud83e\uddd8\u200d\u2640\ufe0f Try this ...",
@@ -251,17 +259,16 @@
      "youtube_id": "nLMblr2Eoes",
      "slot": 1,
      "at": "2026-09-04T22:02:24+00:00"
-    },
-    {
-     "tiktok_id": "7655535982367853844",
-     "title": "#AnimalInspiredYoga #yogapose #foryoupage",
-     "tiktok_views": 12900000,
-     "youtube_id": "K8OIr-83oLM",
-     "slot": 2,
-     "at": "2026-09-04T00:02:50+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-19",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7663112152865164564",
+     "at": "2026-09-19T00:02:26+00:00"
+    },
     {
      "date": "2026-09-18",
      "slot": 1,
@@ -510,9 +517,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-19",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-18",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-17",
@@ -571,11 +583,6 @@
     },
     {
      "date": "2026-09-06",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-05",
      "uploaded": 2,
      "due": 2
     }
