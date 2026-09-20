@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T23:31:15+00:00",
+ "generated_at": "2026-09-20T00:03:08+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-20T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-20T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "pending_retry": 1,
-    "uploaded": 37
+    "uploaded": 38
    },
-   "tracked": 38,
+   "tracked": 39,
    "uploads": [
+    {
+     "tiktok_id": "7681958413043043605",
+     "title": "Your phone is ruining your posture? \ud83d\udcf1 Try this simple wall stretch to...",
+     "tiktok_views": 2400000,
+     "youtube_id": "bxBDLQXq7sU",
+     "slot": 2,
+     "at": "2026-09-20T00:03:06+00:00"
+    },
     {
      "tiktok_id": "7687187170058145045",
      "title": "Want to increase your height? \u2728 Try these 4 yoga poses regularly! If ...",
@@ -251,17 +259,16 @@
      "youtube_id": "_LQ8NmyOy1E",
      "slot": 1,
      "at": "2026-09-05T22:02:03+00:00"
-    },
-    {
-     "tiktok_id": "7658600707288796436",
-     "title": "* Thyroid Yoga \u2013 Supports thyroid & metabolism. * Hair Growth Yoga \u2013 ...",
-     "tiktok_views": 10600000,
-     "youtube_id": "rdXI0mr5m44",
-     "slot": 2,
-     "at": "2026-09-05T00:02:46+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-20",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7681958413043043605",
+     "at": "2026-09-20T00:03:06+00:00"
+    },
     {
      "date": "2026-09-19",
      "slot": 1,
@@ -524,9 +531,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-20",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-19",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-18",
@@ -585,11 +597,6 @@
     },
     {
      "date": "2026-09-07",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-06",
      "uploaded": 2,
      "due": 2
     }
