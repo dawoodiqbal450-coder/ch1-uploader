@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T03:16:22+00:00",
+ "generated_at": "2026-09-20T22:02:37+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-20T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-21T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "pending_retry": 1,
-    "uploaded": 38
+    "uploaded": 39
    },
-   "tracked": 39,
+   "tracked": 40,
    "uploads": [
+    {
+     "tiktok_id": "7687579200554798357",
+     "title": "Fatty Liver? \u2764\ufe0f Try these yoga poses regularly to support liver healt...",
+     "tiktok_views": 95200,
+     "youtube_id": "iR_jSNuPVIo",
+     "slot": 1,
+     "at": "2026-09-20T22:02:35+00:00"
+    },
     {
      "tiktok_id": "7681958413043043605",
      "title": "Your phone is ruining your posture? \ud83d\udcf1 Try this simple wall stretch to...",
@@ -251,17 +259,16 @@
      "youtube_id": "KT9eR0ysA_8",
      "slot": 2,
      "at": "2026-09-06T00:03:31+00:00"
-    },
-    {
-     "tiktok_id": "7681973413887347988",
-     "title": "Relieve back pain with this simple stretch \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Hold the position fo...",
-     "tiktok_views": 67900,
-     "youtube_id": "_LQ8NmyOy1E",
-     "slot": 1,
-     "at": "2026-09-05T22:02:03+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-20",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7687579200554798357",
+     "at": "2026-09-20T22:02:35+00:00"
+    },
     {
      "date": "2026-09-20",
      "slot": 2,
@@ -532,7 +539,7 @@
    "days": [
     {
      "date": "2026-09-20",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
