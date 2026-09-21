@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T23:31:17+00:00",
+ "generated_at": "2026-09-21T00:02:44+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-21T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-21T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "pending_retry": 1,
-    "uploaded": 39
+    "uploaded": 40
    },
-   "tracked": 40,
+   "tracked": 41,
    "uploads": [
+    {
+     "tiktok_id": "7660055009639370004",
+     "title": "\u274c Don\u2019t force Hanumanasana. Hanumanasana is a beautiful pose, but try...",
+     "tiktok_views": 2300000,
+     "youtube_id": "dHPSnjQHS9M",
+     "slot": 2,
+     "at": "2026-09-21T00:02:43+00:00"
+    },
     {
      "tiktok_id": "7687579200554798357",
      "title": "Fatty Liver? \u2764\ufe0f Try these yoga poses regularly to support liver healt...",
@@ -251,17 +259,16 @@
      "youtube_id": "jyKEQ039mQY",
      "slot": 1,
      "at": "2026-09-06T22:02:54+00:00"
-    },
-    {
-     "tiktok_id": "7674179411469536533",
-     "title": "Women\u2019s Health \ud83c\udf38 Practice each pose for 30\u201345 seconds and do it regul...",
-     "tiktok_views": 8500000,
-     "youtube_id": "KT9eR0ysA_8",
-     "slot": 2,
-     "at": "2026-09-06T00:03:31+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-21",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7660055009639370004",
+     "at": "2026-09-21T00:02:43+00:00"
+    },
     {
      "date": "2026-09-20",
      "slot": 1,
@@ -538,9 +545,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-21",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-20",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-19",
@@ -599,11 +611,6 @@
     },
     {
      "date": "2026-09-08",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-07",
      "uploaded": 2,
      "due": 2
     }
