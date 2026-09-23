@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T23:31:29+00:00",
+ "generated_at": "2026-09-23T00:02:29+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-23T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-23T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 1,
-    "uploaded": 43
+    "uploaded": 44
    },
-   "tracked": 44,
+   "tracked": 45,
    "uploads": [
+    {
+     "tiktok_id": "7684184576780029205",
+     "title": "Period pain? Try these gentle yoga poses \ud83c\udf38 Do each pose gently for 45...",
+     "tiktok_views": 2200000,
+     "youtube_id": "LZ32f_tCFfs",
+     "slot": 2,
+     "at": "2026-09-23T00:02:27+00:00"
+    },
     {
      "tiktok_id": "7688314648508058901",
      "title": "Every Woman Should Practice These 10 Yoga Poses Regularly \ud83c\udf38 Make thes...",
@@ -251,17 +259,16 @@
      "youtube_id": "hZd4mfWXumc",
      "slot": 1,
      "at": "2026-09-08T22:02:58+00:00"
-    },
-    {
-     "tiktok_id": "7648227453676113172",
-     "title": "#foryoupage #flexibility #yoga",
-     "tiktok_views": 6500000,
-     "youtube_id": "oYGhc28qEQA",
-     "slot": 2,
-     "at": "2026-09-08T00:02:07+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-23",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7684184576780029205",
+     "at": "2026-09-23T00:02:27+00:00"
+    },
     {
      "date": "2026-09-22",
      "slot": 1,
@@ -566,9 +573,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-23",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-22",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-21",
@@ -627,11 +639,6 @@
     },
     {
      "date": "2026-09-10",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-09",
      "uploaded": 2,
      "due": 2
     }
