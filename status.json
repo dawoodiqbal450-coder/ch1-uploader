@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T23:31:38+00:00",
+ "generated_at": "2026-09-24T00:03:01+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-24T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-24T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 1,
-    "uploaded": 45
+    "uploaded": 46
    },
-   "tracked": 46,
+   "tracked": 47,
    "uploads": [
+    {
+     "tiktok_id": "7658988150710209813",
+     "title": "\ud83e\uddd8 Hold each pose for 10 seconds \u00d7 5 rounds. \ud83e\udd8b Butterfly Pose: Gently ...",
+     "tiktok_views": 2100000,
+     "youtube_id": "mr8dvgtJg_s",
+     "slot": 2,
+     "at": "2026-09-24T00:02:59+00:00"
+    },
     {
      "tiktok_id": "7688711785150532885",
      "title": "124 MILLION VIEWS on Facebook! \ud83e\udd79\u2764\ufe0f Thank you so much for all the love...",
@@ -251,17 +259,16 @@
      "youtube_id": "0-7EcX_KtNI",
      "slot": 1,
      "at": "2026-09-09T22:02:39+00:00"
-    },
-    {
-     "tiktok_id": "7655936995272805653",
-     "title": "Flying Dragon Pose Benefits \ud83d\udc09 * Improves hip flexibility. * Strengthe...",
-     "tiktok_views": 6300000,
-     "youtube_id": "QCswS747QxY",
-     "slot": 2,
-     "at": "2026-09-09T00:02:04+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-24",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7658988150710209813",
+     "at": "2026-09-24T00:02:59+00:00"
+    },
     {
      "date": "2026-09-23",
      "slot": 1,
@@ -580,9 +587,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-24",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-23",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-22",
@@ -641,11 +653,6 @@
     },
     {
      "date": "2026-09-11",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-10",
      "uploaded": 2,
      "due": 2
     }
