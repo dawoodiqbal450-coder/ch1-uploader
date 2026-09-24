@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T03:16:38+00:00",
+ "generated_at": "2026-09-24T22:02:48+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-24T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-25T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 1,
-    "uploaded": 46
+    "uploaded": 47
    },
-   "tracked": 47,
+   "tracked": 48,
    "uploads": [
+    {
+     "tiktok_id": "7689055179630595348",
+     "title": "Try these 6 yoga poses regularly for overall wellness and healthy cir...",
+     "tiktok_views": 32600,
+     "youtube_id": "Vz5xdwJGRsQ",
+     "slot": 1,
+     "at": "2026-09-24T22:02:46+00:00"
+    },
     {
      "tiktok_id": "7658988150710209813",
      "title": "\ud83e\uddd8 Hold each pose for 10 seconds \u00d7 5 rounds. \ud83e\udd8b Butterfly Pose: Gently ...",
@@ -251,17 +259,16 @@
      "youtube_id": "e30hnCZqtkI",
      "slot": 2,
      "at": "2026-09-10T00:02:01+00:00"
-    },
-    {
-     "tiktok_id": "7683506634257222933",
-     "title": "\ud83c\udf38 Every Woman Needs These 6 Yoga Poses! 1\ufe0f\u20e3 Lymphatic Drainage & Brea...",
-     "tiktok_views": 61500,
-     "youtube_id": "0-7EcX_KtNI",
-     "slot": 1,
-     "at": "2026-09-09T22:02:39+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-24",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7689055179630595348",
+     "at": "2026-09-24T22:02:46+00:00"
+    },
     {
      "date": "2026-09-24",
      "slot": 2,
@@ -588,7 +595,7 @@
    "days": [
     {
      "date": "2026-09-24",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
