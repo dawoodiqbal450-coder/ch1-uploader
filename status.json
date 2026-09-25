@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T03:15:38+00:00",
+ "generated_at": "2026-09-25T22:02:46+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-25T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-26T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 1,
-    "uploaded": 48
+    "uploaded": 49
    },
-   "tracked": 49,
+   "tracked": 50,
    "uploads": [
+    {
+     "tiktok_id": "7689410887588810005",
+     "title": "Suffering from urine leakage? Try these simple exercises to support p...",
+     "tiktok_views": 168100,
+     "youtube_id": "QqlocAicXKM",
+     "slot": 1,
+     "at": "2026-09-25T22:02:44+00:00"
+    },
     {
      "tiktok_id": "7675313533579545877",
      "title": "Fix Your Posture With Just ONE Wall Stretch! \u2728 Hold for 15\u201320 seconds...",
@@ -251,17 +259,16 @@
      "youtube_id": "DjFJNx1zFWM",
      "slot": 2,
      "at": "2026-09-11T00:02:33+00:00"
-    },
-    {
-     "tiktok_id": "7683863385041145108",
-     "title": "Still can\u2019t touch your toes? Try this first. \u2728 Practice this stretch ...",
-     "tiktok_views": 69200,
-     "youtube_id": "qq8jrzuOJS8",
-     "slot": 1,
-     "at": "2026-09-10T22:02:16+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-25",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7689410887588810005",
+     "at": "2026-09-25T22:02:44+00:00"
+    },
     {
      "date": "2026-09-25",
      "slot": 2,
@@ -602,7 +609,7 @@
    "days": [
     {
      "date": "2026-09-25",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
