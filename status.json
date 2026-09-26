@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T23:31:18+00:00",
+ "generated_at": "2026-09-26T00:02:13+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-26T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-26T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 1,
-    "uploaded": 49
+    "uploaded": 50
    },
-   "tracked": 50,
+   "tracked": 51,
    "uploads": [
+    {
+     "tiktok_id": "7683807398020042005",
+     "title": "Your phone is causing that neck hump? Do this one stretch daily! Hold...",
+     "tiktok_views": 1900000,
+     "youtube_id": "VN7oh--k270",
+     "slot": 2,
+     "at": "2026-09-26T00:02:12+00:00"
+    },
     {
      "tiktok_id": "7689410887588810005",
      "title": "Suffering from urine leakage? Try these simple exercises to support p...",
@@ -251,17 +259,16 @@
      "youtube_id": "APBcTPD-Av8",
      "slot": 1,
      "at": "2026-09-11T22:02:53+00:00"
-    },
-    {
-     "tiktok_id": "7674143205801381141",
-     "title": "Period pain? Try these 4 gentle movements for 45 seconds to help rela...",
-     "tiktok_views": 4300000,
-     "youtube_id": "DjFJNx1zFWM",
-     "slot": 2,
-     "at": "2026-09-11T00:02:33+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-26",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7683807398020042005",
+     "at": "2026-09-26T00:02:12+00:00"
+    },
     {
      "date": "2026-09-25",
      "slot": 1,
@@ -608,9 +615,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-26",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-25",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-24",
@@ -669,11 +681,6 @@
     },
     {
      "date": "2026-09-13",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-12",
      "uploaded": 2,
      "due": 2
     }
