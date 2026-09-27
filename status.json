@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T03:16:35+00:00",
+ "generated_at": "2026-09-27T22:02:17+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-27T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-09-28T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 1,
-    "uploaded": 52
+    "uploaded": 53
    },
-   "tracked": 53,
+   "tracked": 54,
    "uploads": [
+    {
+     "tiktok_id": "7690178757579279637",
+     "title": "Want to look taller and improve your posture? \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Try these yoga po...",
+     "tiktok_views": 41000,
+     "youtube_id": "_AVVg54J65M",
+     "slot": 1,
+     "at": "2026-09-27T22:02:15+00:00"
+    },
     {
      "tiktok_id": "7676772714656451861",
      "title": "Turn your favorite animals into your yoga inspiration! \ud83d\udc3e\ud83e\uddd8\u200d\u2640\ufe0f These 11...",
@@ -251,17 +259,16 @@
      "youtube_id": "ZGW8v4T4qN8",
      "slot": 2,
      "at": "2026-09-13T00:02:28+00:00"
-    },
-    {
-     "tiktok_id": "7684554203875855636",
-     "title": "Pregnant mom-to-be? \ud83e\udd30\u2728 Try these gentle yoga poses to support your bo...",
-     "tiktok_views": 249900,
-     "youtube_id": "BKb0v2KU6O8",
-     "slot": 1,
-     "at": "2026-09-12T22:02:45+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-27",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7690178757579279637",
+     "at": "2026-09-27T22:02:15+00:00"
+    },
     {
      "date": "2026-09-27",
      "slot": 2,
@@ -630,7 +637,7 @@
    "days": [
     {
      "date": "2026-09-27",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
