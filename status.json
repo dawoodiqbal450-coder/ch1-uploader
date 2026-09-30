@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T23:31:19+00:00",
+ "generated_at": "2026-09-30T00:02:22+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-30T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-09-30T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 1,
     "pending_retry": 1,
-    "uploaded": 57
+    "uploaded": 58
    },
-   "tracked": 59,
+   "tracked": 60,
    "uploads": [
+    {
+     "tiktok_id": "7683846088683572500",
+     "title": "Pelvic posture correction? Try this one stretch regularly. \u2728 Hold for...",
+     "tiktok_views": 1500000,
+     "youtube_id": "-9wXIfU0AVQ",
+     "slot": 2,
+     "at": "2026-09-30T00:02:20+00:00"
+    },
     {
      "tiktok_id": "7690987326117498118",
      "title": "A simple and gentle stretch for back pain support. Hold for 1 minute,...",
@@ -252,17 +260,16 @@
      "youtube_id": "wY558s-JmJs",
      "slot": 1,
      "at": "2026-09-15T22:02:34+00:00"
-    },
-    {
-     "tiktok_id": "7661906619202243860",
-     "title": "Poor Pelvic Posture? Try This One Stretch! \u2728 \u23f1\ufe0f Hold for 30\u201360 second...",
-     "tiktok_views": 3200000,
-     "youtube_id": "WgofdjC1e4c",
-     "slot": 2,
-     "at": "2026-09-15T00:02:10+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-30",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7683846088683572500",
+     "at": "2026-09-30T00:02:20+00:00"
+    },
     {
      "date": "2026-09-29",
      "slot": 1,
@@ -665,9 +672,14 @@
    ],
    "days": [
     {
+     "date": "2026-09-30",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-09-29",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-28",
@@ -726,11 +738,6 @@
     },
     {
      "date": "2026-09-17",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-16",
      "uploaded": 2,
      "due": 2
     }
