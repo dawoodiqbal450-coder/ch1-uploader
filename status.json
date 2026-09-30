@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T03:18:52+00:00",
+ "generated_at": "2026-09-30T22:03:14+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-09-30T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-01T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 1,
     "pending_retry": 1,
-    "uploaded": 58
+    "uploaded": 59
    },
-   "tracked": 60,
+   "tracked": 61,
    "uploads": [
+    {
+     "tiktok_id": "7691279894981987604",
+     "title": "10 Yoga Poses Every Man Should Try Regularly \ud83d\udcaa\ud83e\uddd8\u200d\u2642\ufe0f 1. Thyroid Support...",
+     "tiktok_views": 33900,
+     "youtube_id": "KoLcwYXTJEA",
+     "slot": 1,
+     "at": "2026-09-30T22:03:12+00:00"
+    },
     {
      "tiktok_id": "7683846088683572500",
      "title": "Pelvic posture correction? Try this one stretch regularly. \u2728 Hold for...",
@@ -252,17 +260,16 @@
      "youtube_id": "kkK7B4dnetI",
      "slot": 2,
      "at": "2026-09-16T00:02:32+00:00"
-    },
-    {
-     "tiktok_id": "7685708196731686164",
-     "title": "Bloating, gas or digestion problems? \ud83e\uddd8\u200d\u2640\ufe0f Try these yoga poses regula...",
-     "tiktok_views": 43200,
-     "youtube_id": "wY558s-JmJs",
-     "slot": 1,
-     "at": "2026-09-15T22:02:34+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-09-30",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7691279894981987604",
+     "at": "2026-09-30T22:03:12+00:00"
+    },
     {
      "date": "2026-09-30",
      "slot": 2,
@@ -673,7 +680,7 @@
    "days": [
     {
      "date": "2026-09-30",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
