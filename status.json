@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T23:31:36+00:00",
+ "generated_at": "2026-10-02T00:02:22+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-02T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-02T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 1,
     "pending_retry": 1,
-    "uploaded": 61
+    "uploaded": 62
    },
-   "tracked": 63,
+   "tracked": 64,
    "uploads": [
+    {
+     "tiktok_id": "7691516853381795092",
+     "title": "This simple stretch can help support better posture and ease stiffnes...",
+     "tiktok_views": 2200000,
+     "youtube_id": "Hf3XjhWwlOc",
+     "slot": 2,
+     "at": "2026-10-02T00:02:21+00:00"
+    },
     {
      "tiktok_id": "7691718480327970069",
      "title": "Fix your pelvic posture with this simple stretch. Hold for 10 seconds...",
@@ -252,17 +260,16 @@
      "youtube_id": "BhMpowVEvL8",
      "slot": 1,
      "at": "2026-09-17T22:02:25+00:00"
-    },
-    {
-     "tiktok_id": "7682325842323672341",
-     "title": "Suffering from PCOD, PCOS & Irregular Periods? \ud83c\udf38 Try these 6 yoga pos...",
-     "tiktok_views": 2800000,
-     "youtube_id": "9RGnidTjg34",
-     "slot": 2,
-     "at": "2026-09-17T00:03:25+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-02",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7691516853381795092",
+     "at": "2026-10-02T00:02:21+00:00"
+    },
     {
      "date": "2026-10-01",
      "slot": 1,
@@ -675,20 +682,18 @@
      "status": "success",
      "message": "uploaded 7680861734780964116",
      "at": "2026-09-02T22:02:00+00:00"
-    },
-    {
-     "date": "2026-09-02",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7648909359073791252",
-     "at": "2026-09-02T00:02:09+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-02",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-01",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-09-30",
@@ -747,11 +752,6 @@
     },
     {
      "date": "2026-09-19",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-18",
      "uploaded": 2,
      "due": 2
     }
