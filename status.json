@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T23:31:33+00:00",
+ "generated_at": "2026-10-03T00:02:44+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-03T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-03T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 1,
     "pending_retry": 1,
-    "uploaded": 63
+    "uploaded": 64
    },
-   "tracked": 65,
+   "tracked": 66,
    "uploads": [
+    {
+     "tiktok_id": "7691239514190171412",
+     "title": "Do these simple bedtime stretches on your bed before sleeping. Stay h...",
+     "tiktok_views": 2200000,
+     "youtube_id": "cHqeH0AnO9o",
+     "slot": 2,
+     "at": "2026-10-03T00:02:42+00:00"
+    },
     {
      "tiktok_id": "7692101512666893588",
      "title": "Back pain or stiffness after sitting for a long time? Try this simple...",
@@ -252,17 +260,16 @@
      "youtube_id": "4WZCYazpV6E",
      "slot": 1,
      "at": "2026-09-18T22:02:35+00:00"
-    },
-    {
-     "tiktok_id": "7674948490312699156",
-     "title": "7 Health Concerns? Try These Yoga Movements! \ud83e\uddd8\u200d\u2640\ufe0f\u2728 From thyroid and h...",
-     "tiktok_views": 2800000,
-     "youtube_id": "fE7f7LNC8o4",
-     "slot": 2,
-     "at": "2026-09-18T00:03:01+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-03",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7691239514190171412",
+     "at": "2026-10-03T00:02:42+00:00"
+    },
     {
      "date": "2026-10-02",
      "slot": 1,
@@ -675,20 +682,18 @@
      "status": "success",
      "message": "uploaded 7681280236708826388",
      "at": "2026-09-03T22:02:25+00:00"
-    },
-    {
-     "date": "2026-09-03",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7655568840356613397",
-     "at": "2026-09-03T00:02:06+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-03",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-02",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-01",
@@ -747,11 +752,6 @@
     },
     {
      "date": "2026-09-20",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-19",
      "uploaded": 2,
      "due": 2
     }
