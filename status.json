@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T09:34:15+00:00",
+ "generated_at": "2026-10-04T22:02:20+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-04T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-05T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 1,
     "pending_retry": 1,
-    "uploaded": 66
+    "uploaded": 67
    },
-   "tracked": 68,
+   "tracked": 69,
    "uploads": [
+    {
+     "tiktok_id": "7692799392708955413",
+     "title": "Can\u2019t touch your toes yet? Don\u2019t force it. \ud83e\uddd8\u200d\u2640\ufe0f Start with a gentle S...",
+     "tiktok_views": 158100,
+     "youtube_id": "wDhndNuVnGo",
+     "slot": 1,
+     "at": "2026-10-04T22:02:19+00:00"
+    },
     {
      "tiktok_id": "7690151826267704596",
      "title": "Try these exercises for better pelvic posture and improved body align...",
@@ -252,17 +260,16 @@
      "youtube_id": "bxBDLQXq7sU",
      "slot": 2,
      "at": "2026-09-20T00:03:06+00:00"
-    },
-    {
-     "tiktok_id": "7687187170058145045",
-     "title": "Want to increase your height? \u2728 Try these 4 yoga poses regularly! If ...",
-     "tiktok_views": 21100,
-     "youtube_id": "-JjhmZXQVu8",
-     "slot": 1,
-     "at": "2026-09-19T22:02:07+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-04",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7692799392708955413",
+     "at": "2026-10-04T22:02:19+00:00"
+    },
     {
      "date": "2026-10-04",
      "slot": 2,
@@ -675,19 +682,12 @@
      "status": "success",
      "message": "uploaded 7658600707288796436",
      "at": "2026-09-05T00:02:46+00:00"
-    },
-    {
-     "date": "2026-09-04",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7681594183882591508",
-     "at": "2026-09-04T22:02:24+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-04",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -756,7 +756,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-04"
+   "live_since": "2026-09-05"
   }
  ]
 }
