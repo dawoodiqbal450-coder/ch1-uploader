@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T01:31:34+00:00",
+ "generated_at": "2026-10-05T03:01:09+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -687,7 +687,7 @@
     {
      "date": "2026-10-05",
      "uploaded": 1,
-     "due": 0
+     "due": 1
     },
     {
      "date": "2026-10-04",
