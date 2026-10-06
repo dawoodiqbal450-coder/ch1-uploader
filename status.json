@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T10:01:21+00:00",
+ "generated_at": "2026-10-06T22:02:17+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-06T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-07T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 70
+    "uploaded": 71
    },
-   "tracked": 72,
+   "tracked": 73,
    "uploads": [
+    {
+     "tiktok_id": "7693452573377924372",
+     "title": "Try these 3 gentle yoga stretches before bedtime to help your body re...",
+     "tiktok_views": 121100,
+     "youtube_id": "444vglS83Nw",
+     "slot": 1,
+     "at": "2026-10-06T22:02:15+00:00"
+    },
     {
      "tiktok_id": "7686727582443670805",
      "title": "My gym brother couldn\u2019t do this forward bend before! \ud83d\ude04 But after foll...",
@@ -251,17 +259,16 @@
      "youtube_id": "wL3ZkR53olc",
      "slot": 2,
      "at": "2026-09-22T00:03:14+00:00"
-    },
-    {
-     "tiktok_id": "7687992588011441429",
-     "title": "Hunched back? Try this simple stretch and hold for 5 seconds. Repeat ...",
-     "tiktok_views": 47400,
-     "youtube_id": "s03_iYhTQtY",
-     "slot": 1,
-     "at": "2026-09-21T22:03:01+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-06",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7693452573377924372",
+     "at": "2026-10-06T22:02:15+00:00"
+    },
     {
      "date": "2026-10-06",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7680074763183672597",
      "at": "2026-09-07T00:02:08+00:00"
-    },
-    {
-     "date": "2026-09-06",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7682393643767926036",
-     "at": "2026-09-06T22:02:54+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-06",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-06"
+   "live_since": "2026-09-07"
   }
  ]
 }
