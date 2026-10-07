@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T23:31:34+00:00",
+ "generated_at": "2026-10-07T00:02:25+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-07T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-07T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 71
+    "uploaded": 72
    },
-   "tracked": 73,
+   "tracked": 74,
    "uploads": [
+    {
+     "tiktok_id": "7677860849234529556",
+     "title": "An advanced pose, inspired by Mahadev. \ud83d\udd49\ufe0f\ud83d\udd31 This is not about trying t...",
+     "tiktok_views": 1600000,
+     "youtube_id": "66a-QSCHYoc",
+     "slot": 2,
+     "at": "2026-10-07T00:02:23+00:00"
+    },
     {
      "tiktok_id": "7693452573377924372",
      "title": "Try these 3 gentle yoga stretches before bedtime to help your body re...",
@@ -251,17 +259,16 @@
      "youtube_id": "e0zOwPjAJog",
      "slot": 1,
      "at": "2026-09-22T22:03:17+00:00"
-    },
-    {
-     "tiktok_id": "7668206068878658836",
-     "title": "Want to Unlock a Deep Forward Bend? \ud83e\uddd8\u200d\u2642\ufe0f Practice daily. Hold 30\u201360 s...",
-     "tiktok_views": 2100000,
-     "youtube_id": "wL3ZkR53olc",
-     "slot": 2,
-     "at": "2026-09-22T00:03:14+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-07",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7677860849234529556",
+     "at": "2026-10-07T00:02:23+00:00"
+    },
     {
      "date": "2026-10-06",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7682622149525294356",
      "at": "2026-09-07T22:02:41+00:00"
-    },
-    {
-     "date": "2026-09-07",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7680074763183672597",
-     "at": "2026-09-07T00:02:08+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-07",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-06",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-05",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-09-24",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-23",
      "uploaded": 2,
      "due": 2
     }
