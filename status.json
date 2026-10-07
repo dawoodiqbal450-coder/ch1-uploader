@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T10:05:40+00:00",
+ "generated_at": "2026-10-07T22:02:36+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-07T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-08T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 72
+    "uploaded": 73
    },
-   "tracked": 74,
+   "tracked": 75,
    "uploads": [
+    {
+     "tiktok_id": "7693940953257659668",
+     "title": "Neck hump & bad posture? \ud83e\uddd8\u200d\u2640\ufe0f Try this simple wall stretch. Hold for ...",
+     "tiktok_views": 108900,
+     "youtube_id": "gjiRuyedZeg",
+     "slot": 1,
+     "at": "2026-10-07T22:02:35+00:00"
+    },
     {
      "tiktok_id": "7677860849234529556",
      "title": "An advanced pose, inspired by Mahadev. \ud83d\udd49\ufe0f\ud83d\udd31 This is not about trying t...",
@@ -251,17 +259,16 @@
      "youtube_id": "LZ32f_tCFfs",
      "slot": 2,
      "at": "2026-09-23T00:02:27+00:00"
-    },
-    {
-     "tiktok_id": "7688314648508058901",
-     "title": "Every Woman Should Practice These 10 Yoga Poses Regularly \ud83c\udf38 Make thes...",
-     "tiktok_views": 28700,
-     "youtube_id": "e0zOwPjAJog",
-     "slot": 1,
-     "at": "2026-09-22T22:03:17+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-07",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7693940953257659668",
+     "at": "2026-10-07T22:02:35+00:00"
+    },
     {
      "date": "2026-10-07",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7648227453676113172",
      "at": "2026-09-08T00:02:07+00:00"
-    },
-    {
-     "date": "2026-09-07",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7682622149525294356",
-     "at": "2026-09-07T22:02:41+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-07",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-07"
+   "live_since": "2026-09-08"
   }
  ]
 }
