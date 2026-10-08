@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T10:19:54+00:00",
+ "generated_at": "2026-10-08T22:02:58+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-08T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-09T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 74
+    "uploaded": 75
    },
-   "tracked": 76,
+   "tracked": 77,
    "uploads": [
+    {
+     "tiktok_id": "7694328789232323841",
+     "title": "Men & Women, never ignore these yoga poses. They can support your ove...",
+     "tiktok_views": 112300,
+     "youtube_id": "vRVdDbUoXyQ",
+     "slot": 1,
+     "at": "2026-10-08T22:02:56+00:00"
+    },
     {
      "tiktok_id": "7693127385830395156",
      "title": "Try this gentle yoga routine for PCOS, PCOD & irregular periods \ud83e\uddd8\u200d\u2640\ufe0f\u2764...",
@@ -251,17 +259,16 @@
      "youtube_id": "mr8dvgtJg_s",
      "slot": 2,
      "at": "2026-09-24T00:02:59+00:00"
-    },
-    {
-     "tiktok_id": "7688711785150532885",
-     "title": "124 MILLION VIEWS on Facebook! \ud83e\udd79\u2764\ufe0f Thank you so much for all the love...",
-     "tiktok_views": 65200,
-     "youtube_id": "3VrkYgLqBx0",
-     "slot": 1,
-     "at": "2026-09-23T22:02:46+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-08",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7694328789232323841",
+     "at": "2026-10-08T22:02:56+00:00"
+    },
     {
      "date": "2026-10-08",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7655936995272805653",
      "at": "2026-09-09T00:02:04+00:00"
-    },
-    {
-     "date": "2026-09-08",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7683171635406327061",
-     "at": "2026-09-08T22:02:58+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-08",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-08"
+   "live_since": "2026-09-09"
   }
  ]
 }
