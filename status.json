@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T10:20:27+00:00",
+ "generated_at": "2026-10-09T22:02:28+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-09T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-10T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 76
+    "uploaded": 77
    },
-   "tracked": 78,
+   "tracked": 79,
    "uploads": [
+    {
+     "tiktok_id": "7694480936158678292",
+     "title": "Planning for a baby? \ud83c\udf38 Try these gentle yoga poses for 10 minutes bef...",
+     "tiktok_views": 1200000,
+     "youtube_id": "5VzpXrexoR0",
+     "slot": 1,
+     "at": "2026-10-09T22:02:27+00:00"
+    },
     {
      "tiktok_id": "7677111378703912213",
      "title": "Dragonfly Pose won\u2019t happen in one day! \ud83d\udc09\ud83e\uddd8\u200d\u2640\ufe0f If you\u2019re a beginner, d...",
@@ -251,17 +259,16 @@
      "youtube_id": "4BZpIgsli80",
      "slot": 2,
      "at": "2026-09-25T00:02:32+00:00"
-    },
-    {
-     "tiktok_id": "7689055179630595348",
-     "title": "Try these 6 yoga poses regularly for overall wellness and healthy cir...",
-     "tiktok_views": 32600,
-     "youtube_id": "Vz5xdwJGRsQ",
-     "slot": 1,
-     "at": "2026-09-24T22:02:46+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-09",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7694480936158678292",
+     "at": "2026-10-09T22:02:27+00:00"
+    },
     {
      "date": "2026-10-09",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7655639030532508948",
      "at": "2026-09-10T00:02:01+00:00"
-    },
-    {
-     "date": "2026-09-09",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7683506634257222933",
-     "at": "2026-09-09T22:02:39+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-09",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-09"
+   "live_since": "2026-09-10"
   }
  ]
 }
