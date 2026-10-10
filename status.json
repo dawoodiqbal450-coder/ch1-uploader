@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T23:36:12+00:00",
+ "generated_at": "2026-10-10T00:07:48+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-10T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-10T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 77
+    "uploaded": 78
    },
-   "tracked": 79,
+   "tracked": 80,
    "uploads": [
+    {
+     "tiktok_id": "7670000904506019093",
+     "title": "\ud83d\udccf Want to Be Taller? Try This Routine! \u26a0\ufe0f Remember: These exercises s...",
+     "tiktok_views": 1400000,
+     "youtube_id": "0eDueW3d5r0",
+     "slot": 2,
+     "at": "2026-10-10T00:07:46+00:00"
+    },
     {
      "tiktok_id": "7694480936158678292",
      "title": "Planning for a baby? \ud83c\udf38 Try these gentle yoga poses for 10 minutes bef...",
@@ -251,17 +259,16 @@
      "youtube_id": "QqlocAicXKM",
      "slot": 1,
      "at": "2026-09-25T22:02:44+00:00"
-    },
-    {
-     "tiktok_id": "7675313533579545877",
-     "title": "Fix Your Posture With Just ONE Wall Stretch! \u2728 Hold for 15\u201320 seconds...",
-     "tiktok_views": 2000000,
-     "youtube_id": "4BZpIgsli80",
-     "slot": 2,
-     "at": "2026-09-25T00:02:32+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-10",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7670000904506019093",
+     "at": "2026-10-10T00:07:46+00:00"
+    },
     {
      "date": "2026-10-09",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7683863385041145108",
      "at": "2026-09-10T22:02:16+00:00"
-    },
-    {
-     "date": "2026-09-10",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7655639030532508948",
-     "at": "2026-09-10T00:02:01+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-10",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-09",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-08",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-09-27",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-26",
      "uploaded": 2,
      "due": 2
     }
