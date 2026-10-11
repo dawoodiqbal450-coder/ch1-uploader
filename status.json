@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T09:52:28+00:00",
+ "generated_at": "2026-10-11T22:02:11+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-11T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-12T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 80
+    "uploaded": 81
    },
-   "tracked": 82,
+   "tracked": 83,
    "uploads": [
+    {
+     "tiktok_id": "7695388528582184213",
+     "title": "Fix your neck hump with just one exercise. Do it regularly and mainta...",
+     "tiktok_views": 22700,
+     "youtube_id": "PylLiThKzZU",
+     "slot": 1,
+     "at": "2026-10-11T22:02:09+00:00"
+    },
     {
      "tiktok_id": "7692009480527023380",
      "title": "Don\u2019t force Hanumanasana! \ud83e\uddd8\u200d\u2640\ufe0f Start with Anjaneyasana, build your fl...",
@@ -251,17 +259,16 @@
      "youtube_id": "6De1Nee1PqM",
      "slot": 2,
      "at": "2026-09-27T00:02:52+00:00"
-    },
-    {
-     "tiktok_id": "7689718286321290517",
-     "title": "Can\u2019t do Paschimottanasana? Try this simple step shown in my video. \ud83e\uddd8...",
-     "tiktok_views": 1000000,
-     "youtube_id": "5X_SEprimm4",
-     "slot": 1,
-     "at": "2026-09-26T22:02:14+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-11",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7695388528582184213",
+     "at": "2026-10-11T22:02:09+00:00"
+    },
     {
      "date": "2026-10-11",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7671974258993630484",
      "at": "2026-09-12T00:02:42+00:00"
-    },
-    {
-     "date": "2026-09-11",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7684229821630647572",
-     "at": "2026-09-11T22:02:53+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-11",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-11"
+   "live_since": "2026-09-12"
   }
  ]
 }
