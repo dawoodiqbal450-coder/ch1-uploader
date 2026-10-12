@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T23:31:26+00:00",
+ "generated_at": "2026-10-12T00:02:59+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-12T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-12T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 81
+    "uploaded": 82
    },
-   "tracked": 83,
+   "tracked": 84,
    "uploads": [
+    {
+     "tiktok_id": "7673412888240868628",
+     "title": "\ud83e\udec0 3 simple practices to support heart health and healthy blood circul...",
+     "tiktok_views": 1300000,
+     "youtube_id": "KWkFmI_nHKI",
+     "slot": 2,
+     "at": "2026-10-12T00:02:57+00:00"
+    },
     {
      "tiktok_id": "7695388528582184213",
      "title": "Fix your neck hump with just one exercise. Do it regularly and mainta...",
@@ -251,17 +259,16 @@
      "youtube_id": "_AVVg54J65M",
      "slot": 1,
      "at": "2026-09-27T22:02:15+00:00"
-    },
-    {
-     "tiktok_id": "7676772714656451861",
-     "title": "Turn your favorite animals into your yoga inspiration! \ud83d\udc3e\ud83e\uddd8\u200d\u2640\ufe0f These 11...",
-     "tiktok_views": 1800000,
-     "youtube_id": "6De1Nee1PqM",
-     "slot": 2,
-     "at": "2026-09-27T00:02:52+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-12",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7673412888240868628",
+     "at": "2026-10-12T00:02:57+00:00"
+    },
     {
      "date": "2026-10-11",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7684554203875855636",
      "at": "2026-09-12T22:02:45+00:00"
-    },
-    {
-     "date": "2026-09-12",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7671974258993630484",
-     "at": "2026-09-12T00:02:42+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-12",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-11",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-10",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-09-29",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-28",
      "uploaded": 2,
      "due": 2
     }
