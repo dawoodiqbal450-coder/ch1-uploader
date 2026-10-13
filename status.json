@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T23:31:23+00:00",
+ "generated_at": "2026-10-13T00:02:20+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-13T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-13T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 83
+    "uploaded": 84
    },
-   "tracked": 85,
+   "tracked": 86,
    "uploads": [
+    {
+     "tiktok_id": "7679825646104726804",
+     "title": "\ud83d\udd31 Please don\u2019t take this Mahadev-inspired yoga pose in the wrong way....",
+     "tiktok_views": 1300000,
+     "youtube_id": "0U-C7gJDVVk",
+     "slot": 2,
+     "at": "2026-10-13T00:02:18+00:00"
+    },
     {
      "tiktok_id": "7693754713363385621",
      "title": "Support healthy aging naturally.  This simple movement may support bl...",
@@ -251,17 +259,16 @@
      "youtube_id": "knNuYNUqbKo",
      "slot": 1,
      "at": "2026-09-28T22:02:58+00:00"
-    },
-    {
-     "tiktok_id": "7689713544585022740",
-     "title": "Try Shiv Dand Asana \ud83d\udd49\ufe0f\u2728 This yoga pose may help support flexibility, ...",
-     "tiktok_views": 2700000,
-     "youtube_id": "XLZy7jn8ifw",
-     "slot": 2,
-     "at": "2026-09-28T00:02:03+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-13",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7679825646104726804",
+     "at": "2026-10-13T00:02:18+00:00"
+    },
     {
      "date": "2026-10-12",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7684894422638562580",
      "at": "2026-09-13T22:02:15+00:00"
-    },
-    {
-     "date": "2026-09-13",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7653042189773163796",
-     "at": "2026-09-13T00:02:28+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-13",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-12",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-11",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-09-30",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-29",
      "uploaded": 2,
      "due": 2
     }
