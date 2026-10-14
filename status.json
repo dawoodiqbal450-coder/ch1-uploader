@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T23:31:18+00:00",
+ "generated_at": "2026-10-14T00:02:49+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-14T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-14T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 85
+    "uploaded": 86
    },
-   "tracked": 87,
+   "tracked": 88,
    "uploads": [
+    {
+     "tiktok_id": "7669776854240496917",
+     "title": "\ud83c\udf38 Strengthen Your Pelvic Floor with These 5 Yoga Poses \ud83e\uddd8\u200d\u2640\ufe0f Practice ...",
+     "tiktok_views": 1300000,
+     "youtube_id": "Cq0g0USu3Yg",
+     "slot": 2,
+     "at": "2026-10-14T00:02:47+00:00"
+    },
     {
      "tiktok_id": "7693365394781834516",
      "title": "Unlock your flexibility with Super Soldier Pose \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Hold for 10-15 ...",
@@ -251,17 +259,16 @@
      "youtube_id": "uJhXSICPJsg",
      "slot": 1,
      "at": "2026-09-29T22:02:23+00:00"
-    },
-    {
-     "tiktok_id": "7672323550199450900",
-     "title": "Want healthier hair naturally? \ud83c\udf31\u2728 Try these 6 yoga poses to improve s...",
-     "tiktok_views": 1600000,
-     "youtube_id": "wYFY1YXe9b0",
-     "slot": 2,
-     "at": "2026-09-29T00:02:48+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-14",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7669776854240496917",
+     "at": "2026-10-14T00:02:47+00:00"
+    },
     {
      "date": "2026-10-13",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7685308748243537172",
      "at": "2026-09-14T22:02:00+00:00"
-    },
-    {
-     "date": "2026-09-14",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7680831371413163284",
-     "at": "2026-09-14T00:02:35+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-14",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-13",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-12",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-01",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-09-30",
      "uploaded": 2,
      "due": 2
     }
