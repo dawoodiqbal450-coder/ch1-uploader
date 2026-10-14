@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T08:34:36+00:00",
+ "generated_at": "2026-10-14T22:02:32+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-14T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-15T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 86
+    "uploaded": 87
    },
-   "tracked": 88,
+   "tracked": 89,
    "uploads": [
+    {
+     "tiktok_id": "7693149244831698196",
+     "title": "Your phone habits can affect your posture over time. \ud83d\udcf1 Try this simpl...",
+     "tiktok_views": 1300000,
+     "youtube_id": "kWsABXu9wyo",
+     "slot": 1,
+     "at": "2026-10-14T22:02:30+00:00"
+    },
     {
      "tiktok_id": "7669776854240496917",
      "title": "\ud83c\udf38 Strengthen Your Pelvic Floor with These 5 Yoga Poses \ud83e\uddd8\u200d\u2640\ufe0f Practice ...",
@@ -251,17 +259,16 @@
      "youtube_id": "-9wXIfU0AVQ",
      "slot": 2,
      "at": "2026-09-30T00:02:20+00:00"
-    },
-    {
-     "tiktok_id": "7690987326117498118",
-     "title": "A simple and gentle stretch for back pain support. Hold for 1 minute,...",
-     "tiktok_views": 10700,
-     "youtube_id": "uJhXSICPJsg",
-     "slot": 1,
-     "at": "2026-09-29T22:02:23+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-14",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7693149244831698196",
+     "at": "2026-10-14T22:02:30+00:00"
+    },
     {
      "date": "2026-10-14",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7661906619202243860",
      "at": "2026-09-15T00:02:10+00:00"
-    },
-    {
-     "date": "2026-09-14",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7685308748243537172",
-     "at": "2026-09-14T22:02:00+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-14",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-14"
+   "live_since": "2026-09-15"
   }
  ]
 }
