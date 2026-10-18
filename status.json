@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T23:31:27+00:00",
+ "generated_at": "2026-10-18T00:02:06+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-18T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-18T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 93
+    "uploaded": 94
    },
-   "tracked": 95,
+   "tracked": 96,
    "uploads": [
+    {
+     "tiktok_id": "7677482102027242773",
+     "title": "Can\u2019t do Camel Pose yet? \ud83d\udc2a\u2728 Don\u2019t force your body into the pose. Star...",
+     "tiktok_views": 1200000,
+     "youtube_id": "_aUQ10pOQK4",
+     "slot": 2,
+     "at": "2026-10-18T00:02:04+00:00"
+    },
     {
      "tiktok_id": "7691716024499965205",
      "title": "Fix your full-body posture with these 5 yoga poses! Hold each pose fo...",
@@ -251,17 +259,16 @@
      "youtube_id": "PgdVHKBwOEc",
      "slot": 1,
      "at": "2026-10-03T22:03:14+00:00"
-    },
-    {
-     "tiktok_id": "7691239514190171412",
-     "title": "Do these simple bedtime stretches on your bed before sleeping. Stay h...",
-     "tiktok_views": 2200000,
-     "youtube_id": "cHqeH0AnO9o",
-     "slot": 2,
-     "at": "2026-10-03T00:02:42+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-18",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7677482102027242773",
+     "at": "2026-10-18T00:02:04+00:00"
+    },
     {
      "date": "2026-10-17",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7686783751518440725",
      "at": "2026-09-18T22:02:35+00:00"
-    },
-    {
-     "date": "2026-09-18",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7674948490312699156",
-     "at": "2026-09-18T00:03:01+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-18",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-17",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-16",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-05",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-04",
      "uploaded": 2,
      "due": 2
     }
