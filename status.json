@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T08:26:45+00:00",
+ "generated_at": "2026-10-21T22:02:07+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-21T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-22T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 100
+    "uploaded": 101
    },
-   "tracked": 102,
+   "tracked": 103,
    "uploads": [
+    {
+     "tiktok_id": "7699170697423195412",
+     "title": "Planning for a baby? \u2764\ufe0f\ud83d\udc76 Practice these gentle yoga poses 10 minutes ...",
+     "tiktok_views": 93300,
+     "youtube_id": "mH-Wi-hTFRM",
+     "slot": 1,
+     "at": "2026-10-21T22:02:05+00:00"
+    },
     {
      "tiktok_id": "7673801239276129557",
      "title": "If you\u2019re not able to do a Seated Forward Bend yet, try this! \ud83e\uddd8\u200d\u2640\ufe0f\u2728 D...",
@@ -251,17 +259,16 @@
      "youtube_id": "66a-QSCHYoc",
      "slot": 2,
      "at": "2026-10-07T00:02:23+00:00"
-    },
-    {
-     "tiktok_id": "7693452573377924372",
-     "title": "Try these 3 gentle yoga stretches before bedtime to help your body re...",
-     "tiktok_views": 121100,
-     "youtube_id": "444vglS83Nw",
-     "slot": 1,
-     "at": "2026-10-06T22:02:15+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-21",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7699170697423195412",
+     "at": "2026-10-21T22:02:05+00:00"
+    },
     {
      "date": "2026-10-21",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7668206068878658836",
      "at": "2026-09-22T00:03:14+00:00"
-    },
-    {
-     "date": "2026-09-21",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7687992588011441429",
-     "at": "2026-09-21T22:03:01+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-21",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-21"
+   "live_since": "2026-09-22"
   }
  ]
 }
