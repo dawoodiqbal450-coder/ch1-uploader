@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T23:31:25+00:00",
+ "generated_at": "2026-10-21T00:02:24+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-21T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-21T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 99
+    "uploaded": 100
    },
-   "tracked": 101,
+   "tracked": 102,
    "uploads": [
+    {
+     "tiktok_id": "7673801239276129557",
+     "title": "If you\u2019re not able to do a Seated Forward Bend yet, try this! \ud83e\uddd8\u200d\u2640\ufe0f\u2728 D...",
+     "tiktok_views": 1200000,
+     "youtube_id": "RWdjai24rJ0",
+     "slot": 2,
+     "at": "2026-10-21T00:02:22+00:00"
+    },
     {
      "tiktok_id": "7698736299909418261",
      "title": "Bloating and gas? Try this simple yoga pose in bed to help relieve ga...",
@@ -251,17 +259,16 @@
      "youtube_id": "444vglS83Nw",
      "slot": 1,
      "at": "2026-10-06T22:02:15+00:00"
-    },
-    {
-     "tiktok_id": "7686727582443670805",
-     "title": "My gym brother couldn\u2019t do this forward bend before! \ud83d\ude04 But after foll...",
-     "tiktok_views": 1800000,
-     "youtube_id": "hxH0flHG4Rs",
-     "slot": 2,
-     "at": "2026-10-06T00:02:23+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-21",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7673801239276129557",
+     "at": "2026-10-21T00:02:22+00:00"
+    },
     {
      "date": "2026-10-20",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7687992588011441429",
      "at": "2026-09-21T22:03:01+00:00"
-    },
-    {
-     "date": "2026-09-21",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7660055009639370004",
-     "at": "2026-09-21T00:02:43+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-21",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-20",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-19",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-08",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-07",
      "uploaded": 2,
      "due": 2
     }
