@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:31:26+00:00",
+ "generated_at": "2026-10-22T00:02:23+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-22T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-22T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 101
+    "uploaded": 102
    },
-   "tracked": 103,
+   "tracked": 104,
    "uploads": [
+    {
+     "tiktok_id": "7676061051271564564",
+     "title": "If you still can\u2019t do Crow Pose properly, don\u2019t give up! \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Practi...",
+     "tiktok_views": 1100000,
+     "youtube_id": "zbXMbVMkunI",
+     "slot": 2,
+     "at": "2026-10-22T00:02:21+00:00"
+    },
     {
      "tiktok_id": "7699170697423195412",
      "title": "Planning for a baby? \u2764\ufe0f\ud83d\udc76 Practice these gentle yoga poses 10 minutes ...",
@@ -251,17 +259,16 @@
      "youtube_id": "gjiRuyedZeg",
      "slot": 1,
      "at": "2026-10-07T22:02:35+00:00"
-    },
-    {
-     "tiktok_id": "7677860849234529556",
-     "title": "An advanced pose, inspired by Mahadev. \ud83d\udd49\ufe0f\ud83d\udd31 This is not about trying t...",
-     "tiktok_views": 1600000,
-     "youtube_id": "66a-QSCHYoc",
-     "slot": 2,
-     "at": "2026-10-07T00:02:23+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-22",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7676061051271564564",
+     "at": "2026-10-22T00:02:21+00:00"
+    },
     {
      "date": "2026-10-21",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7688314648508058901",
      "at": "2026-09-22T22:03:17+00:00"
-    },
-    {
-     "date": "2026-09-22",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7668206068878658836",
-     "at": "2026-09-22T00:03:14+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-22",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-21",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-20",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-09",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-08",
      "uploaded": 2,
      "due": 2
     }
