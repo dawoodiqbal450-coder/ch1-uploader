@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T08:29:01+00:00",
+ "generated_at": "2026-10-22T22:07:00+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-22T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-23T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 102
+    "uploaded": 103
    },
-   "tracked": 104,
+   "tracked": 105,
    "uploads": [
+    {
+     "tiktok_id": "7699509996903517460",
+     "title": "Back pain? Try this simple stretch for relief! \ud83e\uddd8\u200d\u2640\ufe0f Hold this stretch...",
+     "tiktok_views": 40300,
+     "youtube_id": "IVHTydP0wsY",
+     "slot": 1,
+     "at": "2026-10-22T22:06:58+00:00"
+    },
     {
      "tiktok_id": "7676061051271564564",
      "title": "If you still can\u2019t do Crow Pose properly, don\u2019t give up! \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Practi...",
@@ -251,17 +259,16 @@
      "youtube_id": "0sPH8LY3MUo",
      "slot": 2,
      "at": "2026-10-08T00:02:42+00:00"
-    },
-    {
-     "tiktok_id": "7693940953257659668",
-     "title": "Neck hump & bad posture? \ud83e\uddd8\u200d\u2640\ufe0f Try this simple wall stretch. Hold for ...",
-     "tiktok_views": 108900,
-     "youtube_id": "gjiRuyedZeg",
-     "slot": 1,
-     "at": "2026-10-07T22:02:35+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-22",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7699509996903517460",
+     "at": "2026-10-22T22:06:58+00:00"
+    },
     {
      "date": "2026-10-22",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7684184576780029205",
      "at": "2026-09-23T00:02:27+00:00"
-    },
-    {
-     "date": "2026-09-22",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7688314648508058901",
-     "at": "2026-09-22T22:03:17+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-22",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-22"
+   "live_since": "2026-09-23"
   }
  ]
 }
