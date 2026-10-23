@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T23:31:26+00:00",
+ "generated_at": "2026-10-23T00:02:34+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-23T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-23T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 103
+    "uploaded": 104
    },
-   "tracked": 105,
+   "tracked": 106,
    "uploads": [
+    {
+     "tiktok_id": "7676383208807779604",
+     "title": "Can\u2019t touch your toes? Try this step-by-step Forward Fold! \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Step...",
+     "tiktok_views": 906800,
+     "youtube_id": "Jk_in-qlIB8",
+     "slot": 2,
+     "at": "2026-10-23T00:02:32+00:00"
+    },
     {
      "tiktok_id": "7699509996903517460",
      "title": "Back pain? Try this simple stretch for relief! \ud83e\uddd8\u200d\u2640\ufe0f Hold this stretch...",
@@ -251,17 +259,16 @@
      "youtube_id": "vRVdDbUoXyQ",
      "slot": 1,
      "at": "2026-10-08T22:02:56+00:00"
-    },
-    {
-     "tiktok_id": "7693127385830395156",
-     "title": "Try this gentle yoga routine for PCOS, PCOD & irregular periods \ud83e\uddd8\u200d\u2640\ufe0f\u2764...",
-     "tiktok_views": 1500000,
-     "youtube_id": "0sPH8LY3MUo",
-     "slot": 2,
-     "at": "2026-10-08T00:02:42+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-23",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7676383208807779604",
+     "at": "2026-10-23T00:02:32+00:00"
+    },
     {
      "date": "2026-10-22",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7688711785150532885",
      "at": "2026-09-23T22:02:46+00:00"
-    },
-    {
-     "date": "2026-09-23",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7684184576780029205",
-     "at": "2026-09-23T00:02:27+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-23",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-22",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-21",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-10",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-09",
      "uploaded": 2,
      "due": 2
     }
