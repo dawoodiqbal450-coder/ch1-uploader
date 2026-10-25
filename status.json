@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T23:31:22+00:00",
+ "generated_at": "2026-10-25T00:02:11+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-25T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-25T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 107
+    "uploaded": 108
    },
-   "tracked": 109,
+   "tracked": 110,
    "uploads": [
+    {
+     "tiktok_id": "7699815007567121685",
+     "title": "\ud83c\udf92 Carrying a heavy backpack every day? Try this simple wall stretch t...",
+     "tiktok_views": 2500000,
+     "youtube_id": "da5XHhmAwmY",
+     "slot": 2,
+     "at": "2026-10-25T00:02:09+00:00"
+    },
     {
      "tiktok_id": "7700223398475042069",
      "title": "Note: I am not claiming that yoga can cure irregular periods or that ...",
@@ -251,17 +259,16 @@
      "youtube_id": "XqJ8WyTCfRA",
      "slot": 1,
      "at": "2026-10-10T22:02:21+00:00"
-    },
-    {
-     "tiktok_id": "7670000904506019093",
-     "title": "\ud83d\udccf Want to Be Taller? Try This Routine! \u26a0\ufe0f Remember: These exercises s...",
-     "tiktok_views": 1400000,
-     "youtube_id": "0eDueW3d5r0",
-     "slot": 2,
-     "at": "2026-10-10T00:07:46+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-25",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7699815007567121685",
+     "at": "2026-10-25T00:02:09+00:00"
+    },
     {
      "date": "2026-10-24",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7689410887588810005",
      "at": "2026-09-25T22:02:44+00:00"
-    },
-    {
-     "date": "2026-09-25",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7675313533579545877",
-     "at": "2026-09-25T00:02:32+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-25",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-24",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-23",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-12",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-11",
      "uploaded": 2,
      "due": 2
     }
