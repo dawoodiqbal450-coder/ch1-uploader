@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T23:31:33+00:00",
+ "generated_at": "2026-10-26T00:02:39+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-26T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-26T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 109
+    "uploaded": 110
    },
-   "tracked": 111,
+   "tracked": 112,
    "uploads": [
+    {
+     "tiktok_id": "7699491292526415124",
+     "title": "Yoga for normal delivery \ud83e\udd30 Practice these yoga poses gently for 45 se...",
+     "tiktok_views": 853700,
+     "youtube_id": "3m3bOY2QLGE",
+     "slot": 2,
+     "at": "2026-10-26T00:02:37+00:00"
+    },
     {
      "tiktok_id": "7700539191993584948",
      "title": "Suffering from gas, acidity, and bloating? \ud83e\uddd8\u200d\u2640\ufe0f Try these 2 simple yo...",
@@ -251,17 +259,16 @@
      "youtube_id": "PylLiThKzZU",
      "slot": 1,
      "at": "2026-10-11T22:02:09+00:00"
-    },
-    {
-     "tiktok_id": "7692009480527023380",
-     "title": "Don\u2019t force Hanumanasana! \ud83e\uddd8\u200d\u2640\ufe0f Start with Anjaneyasana, build your fl...",
-     "tiktok_views": 1300000,
-     "youtube_id": "H5p38JsP21E",
-     "slot": 2,
-     "at": "2026-10-11T00:02:27+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-26",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7699491292526415124",
+     "at": "2026-10-26T00:02:37+00:00"
+    },
     {
      "date": "2026-10-25",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7689718286321290517",
      "at": "2026-09-26T22:02:14+00:00"
-    },
-    {
-     "date": "2026-09-26",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7683807398020042005",
-     "at": "2026-09-26T00:02:12+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-26",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-25",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-24",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-13",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-12",
      "uploaded": 2,
      "due": 2
     }
