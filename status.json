@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T23:31:29+00:00",
+ "generated_at": "2026-10-27T00:02:19+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-27T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-27T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 111
+    "uploaded": 112
    },
-   "tracked": 113,
+   "tracked": 114,
    "uploads": [
+    {
+     "tiktok_id": "7698724043062660373",
+     "title": "Sciatica pain? Try this stretch for pain relief!  Hold for one minute...",
+     "tiktok_views": 1400000,
+     "youtube_id": "ge9x8YYAmUc",
+     "slot": 2,
+     "at": "2026-10-27T00:02:18+00:00"
+    },
     {
      "tiktok_id": "7701005370449267989",
      "title": "Neck hump, bad posture, rounded shoulders, or a stiff back? Try this ...",
@@ -251,17 +259,16 @@
      "youtube_id": "9SbcRu68klI",
      "slot": 1,
      "at": "2026-10-12T22:02:45+00:00"
-    },
-    {
-     "tiktok_id": "7673412888240868628",
-     "title": "\ud83e\udec0 3 simple practices to support heart health and healthy blood circul...",
-     "tiktok_views": 1300000,
-     "youtube_id": "KWkFmI_nHKI",
-     "slot": 2,
-     "at": "2026-10-12T00:02:57+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-27",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7698724043062660373",
+     "at": "2026-10-27T00:02:18+00:00"
+    },
     {
      "date": "2026-10-26",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7690178757579279637",
      "at": "2026-09-27T22:02:15+00:00"
-    },
-    {
-     "date": "2026-09-27",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7676772714656451861",
-     "at": "2026-09-27T00:02:52+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-27",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-26",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-25",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-14",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-13",
      "uploaded": 2,
      "due": 2
     }
