@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T08:50:33+00:00",
+ "generated_at": "2026-10-27T22:02:07+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-27T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-28T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 112
+    "uploaded": 113
    },
-   "tracked": 114,
+   "tracked": 115,
    "uploads": [
+    {
+     "tiktok_id": "7701345066547285269",
+     "title": "Your organs need movement too! \ud83e\uddd8\u200d\u2640\ufe0f\ud83d\udc9a Practice these 4 simple movement...",
+     "tiktok_views": 83300,
+     "youtube_id": "lMz3Ra-CvKc",
+     "slot": 1,
+     "at": "2026-10-27T22:02:05+00:00"
+    },
     {
      "tiktok_id": "7698724043062660373",
      "title": "Sciatica pain? Try this stretch for pain relief!  Hold for one minute...",
@@ -251,17 +259,16 @@
      "youtube_id": "0U-C7gJDVVk",
      "slot": 2,
      "at": "2026-10-13T00:02:18+00:00"
-    },
-    {
-     "tiktok_id": "7693754713363385621",
-     "title": "Support healthy aging naturally.  This simple movement may support bl...",
-     "tiktok_views": 56900,
-     "youtube_id": "9SbcRu68klI",
-     "slot": 1,
-     "at": "2026-10-12T22:02:45+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-27",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7701345066547285269",
+     "at": "2026-10-27T22:02:05+00:00"
+    },
     {
      "date": "2026-10-27",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7689713544585022740",
      "at": "2026-09-28T00:02:03+00:00"
-    },
-    {
-     "date": "2026-09-27",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7690178757579279637",
-     "at": "2026-09-27T22:02:15+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-27",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-27"
+   "live_since": "2026-09-28"
   }
  ]
 }
