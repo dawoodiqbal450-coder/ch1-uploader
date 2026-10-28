@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T09:30:32+00:00",
+ "generated_at": "2026-10-28T22:03:27+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-28T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-10-29T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 114
+    "uploaded": 115
    },
-   "tracked": 116,
+   "tracked": 117,
    "uploads": [
+    {
+     "tiktok_id": "7701684762171444501",
+     "title": "Struggling with Halasana? Try these steps to support digestion and im...",
+     "tiktok_views": 63600,
+     "youtube_id": "BsJu0fylWyU",
+     "slot": 1,
+     "at": "2026-10-28T22:03:25+00:00"
+    },
     {
      "tiktok_id": "7700932073527397653",
      "title": "Relax your body and release tension before bed! \ud83c\udf19Try these gentle str...",
@@ -251,17 +259,16 @@
      "youtube_id": "Cq0g0USu3Yg",
      "slot": 2,
      "at": "2026-10-14T00:02:47+00:00"
-    },
-    {
-     "tiktok_id": "7693365394781834516",
-     "title": "Unlock your flexibility with Super Soldier Pose \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Hold for 10-15 ...",
-     "tiktok_views": 172900,
-     "youtube_id": "uVSh3t6xbpo",
-     "slot": 1,
-     "at": "2026-10-13T22:02:00+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-28",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7701684762171444501",
+     "at": "2026-10-28T22:03:25+00:00"
+    },
     {
      "date": "2026-10-28",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7672323550199450900",
      "at": "2026-09-29T00:02:48+00:00"
-    },
-    {
-     "date": "2026-09-28",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7690585747363089685",
-     "at": "2026-09-28T22:02:58+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-10-28",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-09-28"
+   "live_since": "2026-09-29"
   }
  ]
 }
