@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T23:31:20+00:00",
+ "generated_at": "2026-10-28T00:02:41+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-28T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-28T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 113
+    "uploaded": 114
    },
-   "tracked": 115,
+   "tracked": 116,
    "uploads": [
+    {
+     "tiktok_id": "7700932073527397653",
+     "title": "Relax your body and release tension before bed! \ud83c\udf19Try these gentle str...",
+     "tiktok_views": 1700000,
+     "youtube_id": "5YdTIYoAVPI",
+     "slot": 2,
+     "at": "2026-10-28T00:02:39+00:00"
+    },
     {
      "tiktok_id": "7701345066547285269",
      "title": "Your organs need movement too! \ud83e\uddd8\u200d\u2640\ufe0f\ud83d\udc9a Practice these 4 simple movement...",
@@ -251,17 +259,16 @@
      "youtube_id": "uVSh3t6xbpo",
      "slot": 1,
      "at": "2026-10-13T22:02:00+00:00"
-    },
-    {
-     "tiktok_id": "7679825646104726804",
-     "title": "\ud83d\udd31 Please don\u2019t take this Mahadev-inspired yoga pose in the wrong way....",
-     "tiktok_views": 1300000,
-     "youtube_id": "0U-C7gJDVVk",
-     "slot": 2,
-     "at": "2026-10-13T00:02:18+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-28",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7700932073527397653",
+     "at": "2026-10-28T00:02:39+00:00"
+    },
     {
      "date": "2026-10-27",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7690585747363089685",
      "at": "2026-09-28T22:02:58+00:00"
-    },
-    {
-     "date": "2026-09-28",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7689713544585022740",
-     "at": "2026-09-28T00:02:03+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-28",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-27",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-26",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-15",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-14",
      "uploaded": 2,
      "due": 2
     }
