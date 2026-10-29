@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T23:31:44+00:00",
+ "generated_at": "2026-10-29T00:02:37+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-29T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-29T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 115
+    "uploaded": 116
    },
-   "tracked": 117,
+   "tracked": 118,
    "uploads": [
+    {
+     "tiktok_id": "7700504145601531157",
+     "title": "Is your heavy bag affecting your back posture? \ud83c\udf92 Try this simple stre...",
+     "tiktok_views": 1500000,
+     "youtube_id": "2uVpkfzvUrs",
+     "slot": 2,
+     "at": "2026-10-29T00:02:35+00:00"
+    },
     {
      "tiktok_id": "7701684762171444501",
      "title": "Struggling with Halasana? Try these steps to support digestion and im...",
@@ -251,17 +259,16 @@
      "youtube_id": "kWsABXu9wyo",
      "slot": 1,
      "at": "2026-10-14T22:02:30+00:00"
-    },
-    {
-     "tiktok_id": "7669776854240496917",
-     "title": "\ud83c\udf38 Strengthen Your Pelvic Floor with These 5 Yoga Poses \ud83e\uddd8\u200d\u2640\ufe0f Practice ...",
-     "tiktok_views": 1300000,
-     "youtube_id": "Cq0g0USu3Yg",
-     "slot": 2,
-     "at": "2026-10-14T00:02:47+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-29",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7700504145601531157",
+     "at": "2026-10-29T00:02:35+00:00"
+    },
     {
      "date": "2026-10-28",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7690987326117498118",
      "at": "2026-09-29T22:02:23+00:00"
-    },
-    {
-     "date": "2026-09-29",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7672323550199450900",
-     "at": "2026-09-29T00:02:48+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-29",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-28",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-27",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-16",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-15",
      "uploaded": 2,
      "due": 2
     }
