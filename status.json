@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T23:31:18+00:00",
+ "generated_at": "2026-10-31T00:02:21+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-10-31T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-10-31T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 119
+    "uploaded": 120
    },
-   "tracked": 121,
+   "tracked": 122,
    "uploads": [
+    {
+     "tiktok_id": "7699042532507782420",
+     "title": "Lower back pain? Try this one stretch for relief! \ud83e\uddd8\u200d\u2640\ufe0f Stay here for ...",
+     "tiktok_views": 1400000,
+     "youtube_id": "kGgfQd1L_ME",
+     "slot": 2,
+     "at": "2026-10-31T00:02:19+00:00"
+    },
     {
      "tiktok_id": "7702434204767800596",
      "title": "Try this simple stretch to support frozen shoulder relief and improve...",
@@ -251,17 +259,16 @@
      "youtube_id": "W5elwpBvd6E",
      "slot": 1,
      "at": "2026-10-16T22:02:21+00:00"
-    },
-    {
-     "tiktok_id": "7675337007253572884",
-     "title": "Constipation bothering you? \ud83d\udca9 Start your morning with this simple rou...",
-     "tiktok_views": 1300000,
-     "youtube_id": "g2K0BLlHo_0",
-     "slot": 2,
-     "at": "2026-10-16T00:02:17+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-10-31",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7699042532507782420",
+     "at": "2026-10-31T00:02:19+00:00"
+    },
     {
      "date": "2026-10-30",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7691718480327970069",
      "at": "2026-10-01T22:02:47+00:00"
-    },
-    {
-     "date": "2026-10-01",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7689389982062169364",
-     "at": "2026-10-01T00:02:52+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-10-31",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-30",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-29",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-18",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-17",
      "uploaded": 2,
      "due": 2
     }
