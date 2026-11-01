@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T23:31:55+00:00",
+ "generated_at": "2026-11-01T00:03:26+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-01T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-01T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 121
+    "uploaded": 122
    },
-   "tracked": 123,
+   "tracked": 124,
    "uploads": [
+    {
+     "tiktok_id": "7700173345484066068",
+     "title": "Back stiffness? Try this gentle stretch to support back flexibility a...",
+     "tiktok_views": 966900,
+     "youtube_id": "iDMfpIHi8wU",
+     "slot": 2,
+     "at": "2026-11-01T00:03:24+00:00"
+    },
     {
      "tiktok_id": "7702061843308662036",
      "title": "Sciatica pain? Try this simple yoga stretch for gentle relief. Hold f...",
@@ -251,17 +259,16 @@
      "youtube_id": "QgeVPFLqBm0",
      "slot": 1,
      "at": "2026-10-17T22:02:13+00:00"
-    },
-    {
-     "tiktok_id": "7679337651769478420",
-     "title": "Pelvic Posture Correction \ud83e\uddd8\u200d\u2640\ufe0f\u2728 A simple stretch to improve pelvic al...",
-     "tiktok_views": 1200000,
-     "youtube_id": "nkIwQf9o9fU",
-     "slot": 2,
-     "at": "2026-10-17T00:02:11+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-01",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7700173345484066068",
+     "at": "2026-11-01T00:03:24+00:00"
+    },
     {
      "date": "2026-10-31",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7692101512666893588",
      "at": "2026-10-02T22:02:27+00:00"
-    },
-    {
-     "date": "2026-10-02",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7691516853381795092",
-     "at": "2026-10-02T00:02:21+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-01",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-10-31",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-10-30",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-19",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-18",
      "uploaded": 2,
      "due": 2
     }
