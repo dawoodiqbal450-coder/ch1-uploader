@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T22:02:24+00:00",
+ "generated_at": "2026-11-04T00:02:35+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-04T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-04T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 127
+    "uploaded": 128
    },
-   "tracked": 129,
+   "tracked": 130,
    "uploads": [
+    {
+     "tiktok_id": "7677511081471888661",
+     "title": "Don\u2019t think you\u2019ll complete all these steps in just one day and sudde...",
+     "tiktok_views": 886500,
+     "youtube_id": "G7gDOIS1KqM",
+     "slot": 2,
+     "at": "2026-11-04T00:02:33+00:00"
+    },
     {
      "tiktok_id": "7703909087943216385",
      "title": "Fix your pelvic posture with this simple stretch! \ud83e\uddd8\u200d\u2640\ufe0f #PelvicTilt #P...",
@@ -251,17 +259,16 @@
      "youtube_id": "de7-UtD4Ito",
      "slot": 1,
      "at": "2026-10-20T22:02:11+00:00"
-    },
-    {
-     "tiktok_id": "7690515994699156756",
-     "title": "Can\u2019t do Standing Chakrasana yet? Try this progression to build confi...",
-     "tiktok_views": 1100000,
-     "youtube_id": "YRBYEsyi3eA",
-     "slot": 2,
-     "at": "2026-10-20T00:02:16+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-04",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7677511081471888661",
+     "at": "2026-11-04T00:02:33+00:00"
+    },
     {
      "date": "2026-11-03",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7693160233169964309",
      "at": "2026-10-05T22:02:24+00:00"
-    },
-    {
-     "date": "2026-10-05",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7687917110634302741",
-     "at": "2026-10-05T00:02:40+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-04",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-03",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-02",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-22",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-21",
      "uploaded": 2,
      "due": 2
     }
