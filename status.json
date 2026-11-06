@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T23:31:50+00:00",
+ "generated_at": "2026-11-06T00:02:48+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-06T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-06T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 131
+    "uploaded": 132
    },
-   "tracked": 133,
+   "tracked": 134,
    "uploads": [
+    {
+     "tiktok_id": "7700900510597008661",
+     "title": "Want to improve your pelvic posture? \u2728 Practice these yoga poses dail...",
+     "tiktok_views": 888800,
+     "youtube_id": "Lz55TsuJbJs",
+     "slot": 2,
+     "at": "2026-11-06T00:02:46+00:00"
+    },
     {
      "tiktok_id": "7704287859397758229",
      "title": "Gas & bloating? Try these simple yoga poses for relief. \u2764\ufe0f #GasRelief...",
@@ -251,17 +259,16 @@
      "youtube_id": "IVHTydP0wsY",
      "slot": 1,
      "at": "2026-10-22T22:06:58+00:00"
-    },
-    {
-     "tiktok_id": "7676061051271564564",
-     "title": "If you still can\u2019t do Crow Pose properly, don\u2019t give up! \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Practi...",
-     "tiktok_views": 1100000,
-     "youtube_id": "zbXMbVMkunI",
-     "slot": 2,
-     "at": "2026-10-22T00:02:21+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-06",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7700900510597008661",
+     "at": "2026-11-06T00:02:46+00:00"
+    },
     {
      "date": "2026-11-05",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7693940953257659668",
      "at": "2026-10-07T22:02:35+00:00"
-    },
-    {
-     "date": "2026-10-07",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7677860849234529556",
-     "at": "2026-10-07T00:02:23+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-06",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-05",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-04",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-24",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-23",
      "uploaded": 2,
      "due": 2
     }
