@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T23:31:26+00:00",
+ "generated_at": "2026-11-07T00:02:26+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-07T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-07T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 133
+    "uploaded": 134
    },
-   "tracked": 135,
+   "tracked": 136,
    "uploads": [
+    {
+     "tiktok_id": "7679351174860000532",
+     "title": "Increase Your Height \u2705 Teenagers can try these yoga movements for 45 ...",
+     "tiktok_views": 855700,
+     "youtube_id": "ihM7jjdsraM",
+     "slot": 2,
+     "at": "2026-11-07T00:02:24+00:00"
+    },
     {
      "tiktok_id": "7703524162240859413",
      "title": "Belly fat workout \u2013 Chair version! \ud83e\ude91 4 sets \u00d7 20 reps. #BellyFat #Cha...",
@@ -251,17 +259,16 @@
      "youtube_id": "z0ILlsd_YG0",
      "slot": 1,
      "at": "2026-10-23T22:02:19+00:00"
-    },
-    {
-     "tiktok_id": "7676383208807779604",
-     "title": "Can\u2019t touch your toes? Try this step-by-step Forward Fold! \ud83e\uddd8\u200d\u2640\ufe0f\u2728 Step...",
-     "tiktok_views": 906800,
-     "youtube_id": "Jk_in-qlIB8",
-     "slot": 2,
-     "at": "2026-10-23T00:02:32+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-07",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7679351174860000532",
+     "at": "2026-11-07T00:02:24+00:00"
+    },
     {
      "date": "2026-11-06",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7694328789232323841",
      "at": "2026-10-08T22:02:56+00:00"
-    },
-    {
-     "date": "2026-10-08",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7693127385830395156",
-     "at": "2026-10-08T00:02:42+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-07",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-06",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-05",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-25",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-24",
      "uploaded": 2,
      "due": 2
     }
