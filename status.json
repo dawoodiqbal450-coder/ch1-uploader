@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T11:14:42+00:00",
+ "generated_at": "2026-11-09T22:02:25+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-09T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-11-10T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 138
+    "uploaded": 139
    },
-   "tracked": 140,
+   "tracked": 141,
    "uploads": [
+    {
+     "tiktok_id": "7706011405413027080",
+     "title": "Happy Diwali! \ud83e\ude94Wishing you happiness, health and prosperity! #diwali ...",
+     "tiktok_views": 5112,
+     "youtube_id": "K87qEYboOw4",
+     "slot": 1,
+     "at": "2026-11-09T22:02:23+00:00"
+    },
     {
      "tiktok_id": "7687952701350563092",
      "title": "Spending long hours on your phone, sitting on a chair, or working on ...",
@@ -251,17 +259,16 @@
      "youtube_id": "3m3bOY2QLGE",
      "slot": 2,
      "at": "2026-10-26T00:02:37+00:00"
-    },
-    {
-     "tiktok_id": "7700539191993584948",
-     "title": "Suffering from gas, acidity, and bloating? \ud83e\uddd8\u200d\u2640\ufe0f Try these 2 simple yo...",
-     "tiktok_views": 675200,
-     "youtube_id": "Hx_eQROuzkY",
-     "slot": 1,
-     "at": "2026-10-25T22:01:59+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-09",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7706011405413027080",
+     "at": "2026-11-09T22:02:23+00:00"
+    },
     {
      "date": "2026-11-09",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7692009480527023380",
      "at": "2026-10-11T00:02:27+00:00"
-    },
-    {
-     "date": "2026-10-10",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7693796061856533781",
-     "at": "2026-10-10T22:02:21+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-11-09",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-10-10"
+   "live_since": "2026-10-11"
   }
  ]
 }
