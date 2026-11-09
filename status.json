@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T23:31:31+00:00",
+ "generated_at": "2026-11-09T00:02:46+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-09T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-09T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 137
+    "uploaded": 138
    },
-   "tracked": 139,
+   "tracked": 140,
    "uploads": [
+    {
+     "tiktok_id": "7687952701350563092",
+     "title": "Spending long hours on your phone, sitting on a chair, or working on ...",
+     "tiktok_views": 849900,
+     "youtube_id": "XZv06q0i_iU",
+     "slot": 2,
+     "at": "2026-11-09T00:02:45+00:00"
+    },
     {
      "tiktok_id": "7702048621692194069",
      "title": "Cervical pain? Try this simple yoga stretch for relief! Hold for 30 s...",
@@ -251,17 +259,16 @@
      "youtube_id": "Hx_eQROuzkY",
      "slot": 1,
      "at": "2026-10-25T22:01:59+00:00"
-    },
-    {
-     "tiktok_id": "7699815007567121685",
-     "title": "\ud83c\udf92 Carrying a heavy backpack every day? Try this simple wall stretch t...",
-     "tiktok_views": 2500000,
-     "youtube_id": "da5XHhmAwmY",
-     "slot": 2,
-     "at": "2026-10-25T00:02:09+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-09",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7687952701350563092",
+     "at": "2026-11-09T00:02:45+00:00"
+    },
     {
      "date": "2026-11-08",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7693796061856533781",
      "at": "2026-10-10T22:02:21+00:00"
-    },
-    {
-     "date": "2026-10-10",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7670000904506019093",
-     "at": "2026-10-10T00:07:46+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-09",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-08",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-07",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-27",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-26",
      "uploaded": 2,
      "due": 2
     }
