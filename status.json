@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T10:56:37+00:00",
+ "generated_at": "2026-11-10T22:01:56+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-10T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-11-11T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 140
+    "uploaded": 141
    },
-   "tracked": 142,
+   "tracked": 143,
    "uploads": [
+    {
+     "tiktok_id": "7706577114224397575",
+     "title": "Sciatica pain? Try this stretch! Hold for 15 seconds on each side. #S...",
+     "tiktok_views": 118800,
+     "youtube_id": "Nc1xFJXeFYk",
+     "slot": 1,
+     "at": "2026-11-10T22:01:54+00:00"
+    },
     {
      "tiktok_id": "7699796379681525013",
      "title": "Sciatica or lower back pain? \ud83e\uddd8\u200d\u2640\ufe0f Try this gentle stretch to support ...",
@@ -251,17 +259,16 @@
      "youtube_id": "ge9x8YYAmUc",
      "slot": 2,
      "at": "2026-10-27T00:02:18+00:00"
-    },
-    {
-     "tiktok_id": "7701005370449267989",
-     "title": "Neck hump, bad posture, rounded shoulders, or a stiff back? Try this ...",
-     "tiktok_views": 88200,
-     "youtube_id": "Hb92pqLjmCE",
-     "slot": 1,
-     "at": "2026-10-26T22:02:06+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-10",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7706577114224397575",
+     "at": "2026-11-10T22:01:54+00:00"
+    },
     {
      "date": "2026-11-10",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7673412888240868628",
      "at": "2026-10-12T00:02:57+00:00"
-    },
-    {
-     "date": "2026-10-11",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7695388528582184213",
-     "at": "2026-10-11T22:02:09+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-11-10",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-10-11"
+   "live_since": "2026-10-12"
   }
  ]
 }
