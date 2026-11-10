@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T23:31:41+00:00",
+ "generated_at": "2026-11-10T00:02:48+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-10T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-10T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 139
+    "uploaded": 140
    },
-   "tracked": 141,
+   "tracked": 142,
    "uploads": [
+    {
+     "tiktok_id": "7699796379681525013",
+     "title": "Sciatica or lower back pain? \ud83e\uddd8\u200d\u2640\ufe0f Try this gentle stretch to support ...",
+     "tiktok_views": 854300,
+     "youtube_id": "asTuNVeIx98",
+     "slot": 2,
+     "at": "2026-11-10T00:02:46+00:00"
+    },
     {
      "tiktok_id": "7706011405413027080",
      "title": "Happy Diwali! \ud83e\ude94Wishing you happiness, health and prosperity! #diwali ...",
@@ -251,17 +259,16 @@
      "youtube_id": "Hb92pqLjmCE",
      "slot": 1,
      "at": "2026-10-26T22:02:06+00:00"
-    },
-    {
-     "tiktok_id": "7699491292526415124",
-     "title": "Yoga for normal delivery \ud83e\udd30 Practice these yoga poses gently for 45 se...",
-     "tiktok_views": 853700,
-     "youtube_id": "3m3bOY2QLGE",
-     "slot": 2,
-     "at": "2026-10-26T00:02:37+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-10",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7699796379681525013",
+     "at": "2026-11-10T00:02:46+00:00"
+    },
     {
      "date": "2026-11-09",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7695388528582184213",
      "at": "2026-10-11T22:02:09+00:00"
-    },
-    {
-     "date": "2026-10-11",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7692009480527023380",
-     "at": "2026-10-11T00:02:27+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-10",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-09",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-08",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-28",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-27",
      "uploaded": 2,
      "due": 2
     }
