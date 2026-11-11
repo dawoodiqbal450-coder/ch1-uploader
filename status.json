@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T23:31:27+00:00",
+ "generated_at": "2026-11-11T00:02:07+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-11T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-11T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 141
+    "uploaded": 142
    },
-   "tracked": 143,
+   "tracked": 144,
    "uploads": [
+    {
+     "tiktok_id": "7683062196594609428",
+     "title": "Can\u2019t touch your toes yet? Don\u2019t force it! \ud83e\uddd8\u200d\u2640\ufe0f Practice this seated ...",
+     "tiktok_views": 821600,
+     "youtube_id": "O6h9IRePA8Y",
+     "slot": 2,
+     "at": "2026-11-11T00:02:04+00:00"
+    },
     {
      "tiktok_id": "7706577114224397575",
      "title": "Sciatica pain? Try this stretch! Hold for 15 seconds on each side. #S...",
@@ -251,17 +259,16 @@
      "youtube_id": "lMz3Ra-CvKc",
      "slot": 1,
      "at": "2026-10-27T22:02:05+00:00"
-    },
-    {
-     "tiktok_id": "7698724043062660373",
-     "title": "Sciatica pain? Try this stretch for pain relief!  Hold for one minute...",
-     "tiktok_views": 1400000,
-     "youtube_id": "ge9x8YYAmUc",
-     "slot": 2,
-     "at": "2026-10-27T00:02:18+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-11",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7683062196594609428",
+     "at": "2026-11-11T00:02:04+00:00"
+    },
     {
      "date": "2026-11-10",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7693754713363385621",
      "at": "2026-10-12T22:02:45+00:00"
-    },
-    {
-     "date": "2026-10-12",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7673412888240868628",
-     "at": "2026-10-12T00:02:57+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-11",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-10",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-09",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-29",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-28",
      "uploaded": 2,
      "due": 2
     }
