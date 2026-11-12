@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T23:31:45+00:00",
+ "generated_at": "2026-11-12T00:02:23+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-12T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-12T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 143
+    "uploaded": 144
    },
-   "tracked": 145,
+   "tracked": 146,
    "uploads": [
+    {
+     "tiktok_id": "7677117358577634581",
+     "title": "No yoga pose is mastered in a single day. \ud83e\uddd8\u200d\u2640\ufe0f\u2728 It can take months of...",
+     "tiktok_views": 730600,
+     "youtube_id": "VgI2nP0qvG4",
+     "slot": 2,
+     "at": "2026-11-12T00:02:21+00:00"
+    },
     {
      "tiktok_id": "7701909107023891732",
      "title": "Back pain, neck hump, rounded shoulders, or bad posture? \ud83e\uddd8\u200d\u2640\ufe0f Practic...",
@@ -251,17 +259,16 @@
      "youtube_id": "BsJu0fylWyU",
      "slot": 1,
      "at": "2026-10-28T22:03:25+00:00"
-    },
-    {
-     "tiktok_id": "7700932073527397653",
-     "title": "Relax your body and release tension before bed! \ud83c\udf19Try these gentle str...",
-     "tiktok_views": 1700000,
-     "youtube_id": "5YdTIYoAVPI",
-     "slot": 2,
-     "at": "2026-10-28T00:02:39+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-12",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7677117358577634581",
+     "at": "2026-11-12T00:02:21+00:00"
+    },
     {
      "date": "2026-11-11",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7693365394781834516",
      "at": "2026-10-13T22:02:00+00:00"
-    },
-    {
-     "date": "2026-10-13",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7679825646104726804",
-     "at": "2026-10-13T00:02:18+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-12",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-11",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-10",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-10-30",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-10-29",
      "uploaded": 2,
      "due": 2
     }
