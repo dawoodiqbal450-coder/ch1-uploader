@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T23:31:23+00:00",
+ "generated_at": "2026-11-17T00:02:47+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-17T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-17T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 153
+    "uploaded": 154
    },
-   "tracked": 155,
+   "tracked": 156,
    "uploads": [
+    {
+     "tiktok_id": "7682347203049868565",
+     "title": "Do you experience urine leakage while coughing, sneezing, exercising,...",
+     "tiktok_views": 512500,
+     "youtube_id": "1Ech3O36NgE",
+     "slot": 2,
+     "at": "2026-11-17T00:02:46+00:00"
+    },
     {
      "tiktok_id": "7708797562194562311",
      "title": "Improve your pelvic posture with these gentle exercises for anterior ...",
@@ -251,17 +259,16 @@
      "youtube_id": "CL2MqtViAfo",
      "slot": 1,
      "at": "2026-11-02T22:02:29+00:00"
-    },
-    {
-     "tiktok_id": "7700421674390326529",
-     "title": "PCOD, PCOS, and irregular periods? \ud83e\uddd8\u200d\u2640\ufe0f\u2764\ufe0f Try these gentle yoga exerc...",
-     "tiktok_views": 1000000,
-     "youtube_id": "hB3wZU_Nlsg",
-     "slot": 2,
-     "at": "2026-11-02T00:02:24+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-17",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7682347203049868565",
+     "at": "2026-11-17T00:02:46+00:00"
+    },
     {
      "date": "2026-11-16",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7691593733833444629",
      "at": "2026-10-18T22:02:15+00:00"
-    },
-    {
-     "date": "2026-10-18",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7677482102027242773",
-     "at": "2026-10-18T00:02:04+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-17",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-16",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-15",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-11-04",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-03",
      "uploaded": 2,
      "due": 2
     }
