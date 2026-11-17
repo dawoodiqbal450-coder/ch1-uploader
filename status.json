@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T11:39:07+00:00",
+ "generated_at": "2026-11-17T22:02:28+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-17T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-11-18T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
-    "uploaded": 154
+    "pending_retry": 1,
+    "uploaded": 155
    },
-   "tracked": 156,
+   "tracked": 158,
    "uploads": [
+    {
+     "tiktok_id": "7699430388107775253",
+     "title": "Reduce back fat with this simple exercise! \ud83d\udcaa\u2728 Do this 50 times every ...",
+     "tiktok_views": 121900,
+     "youtube_id": "MxRdDGohnIs",
+     "slot": 1,
+     "at": "2026-11-17T22:02:26+00:00"
+    },
     {
      "tiktok_id": "7682347203049868565",
      "title": "Do you experience urine leakage while coughing, sneezing, exercising,...",
@@ -251,17 +260,16 @@
      "youtube_id": "e0P-58-72EM",
      "slot": 2,
      "at": "2026-11-03T00:02:09+00:00"
-    },
-    {
-     "tiktok_id": "7703590523017137414",
-     "title": "Struggling with hair fall? Try these 3 yoga poses to support scalp he...",
-     "tiktok_views": 268500,
-     "youtube_id": "CL2MqtViAfo",
-     "slot": 1,
-     "at": "2026-11-02T22:02:29+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-17",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7699430388107775253",
+     "at": "2026-11-17T22:02:26+00:00"
+    },
     {
      "date": "2026-11-17",
      "slot": 2,
@@ -674,19 +682,12 @@
      "status": "success",
      "message": "uploaded 7675667372111416596",
      "at": "2026-10-19T00:02:00+00:00"
-    },
-    {
-     "date": "2026-10-18",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7691593733833444629",
-     "at": "2026-10-18T22:02:15+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-11-17",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +756,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-10-18"
+   "live_since": "2026-10-19"
   }
  ]
 }
