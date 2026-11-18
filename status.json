@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:26:20+00:00",
+ "generated_at": "2026-11-18T22:02:31+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-18T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-11-19T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
     "pending_retry": 1,
-    "uploaded": 156
+    "uploaded": 157
    },
-   "tracked": 159,
+   "tracked": 160,
    "uploads": [
+    {
+     "tiktok_id": "7709550502165515538",
+     "title": "Want to improve your pelvic posture? Try these 2 yoga poses for bette...",
+     "tiktok_views": 262900,
+     "youtube_id": "_qKPKnyXQrE",
+     "slot": 1,
+     "at": "2026-11-18T22:02:29+00:00"
+    },
     {
      "tiktok_id": "7690888486324342037",
      "title": "Try this simple stretch for back pain & sciatica pain. Hold for 30 se...",
@@ -252,17 +260,16 @@
      "youtube_id": "G7gDOIS1KqM",
      "slot": 2,
      "at": "2026-11-04T00:02:33+00:00"
-    },
-    {
-     "tiktok_id": "7703909087943216385",
-     "title": "Fix your pelvic posture with this simple stretch! \ud83e\uddd8\u200d\u2640\ufe0f #PelvicTilt #P...",
-     "tiktok_views": 383300,
-     "youtube_id": "sElRx4ZFp-4",
-     "slot": 1,
-     "at": "2026-11-03T22:02:22+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-18",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7709550502165515538",
+     "at": "2026-11-18T22:02:29+00:00"
+    },
     {
      "date": "2026-11-18",
      "slot": 2,
@@ -675,19 +682,12 @@
      "status": "success",
      "message": "uploaded 7690515994699156756",
      "at": "2026-10-20T00:02:16+00:00"
-    },
-    {
-     "date": "2026-10-19",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7698397289534033172",
-     "at": "2026-10-19T22:02:20+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-11-18",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -756,7 +756,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-10-19"
+   "live_since": "2026-10-20"
   }
  ]
 }
