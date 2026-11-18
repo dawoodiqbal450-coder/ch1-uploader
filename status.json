@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T23:31:44+00:00",
+ "generated_at": "2026-11-18T00:02:44+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-18T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-18T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
     "pending_retry": 1,
-    "uploaded": 155
+    "uploaded": 156
    },
-   "tracked": 158,
+   "tracked": 159,
    "uploads": [
+    {
+     "tiktok_id": "7690888486324342037",
+     "title": "Try this simple stretch for back pain & sciatica pain. Hold for 30 se...",
+     "tiktok_views": 473000,
+     "youtube_id": "gDxcn9GEiU8",
+     "slot": 2,
+     "at": "2026-11-18T00:02:42+00:00"
+    },
     {
      "tiktok_id": "7699430388107775253",
      "title": "Reduce back fat with this simple exercise! \ud83d\udcaa\u2728 Do this 50 times every ...",
@@ -252,17 +260,16 @@
      "youtube_id": "sElRx4ZFp-4",
      "slot": 1,
      "at": "2026-11-03T22:02:22+00:00"
-    },
-    {
-     "tiktok_id": "7698362612517571841",
-     "title": "Shoulder pain? Try this simple stretch for pain relief #shoulderpainr...",
-     "tiktok_views": 975200,
-     "youtube_id": "e0P-58-72EM",
-     "slot": 2,
-     "at": "2026-11-03T00:02:09+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-18",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7690888486324342037",
+     "at": "2026-11-18T00:02:42+00:00"
+    },
     {
      "date": "2026-11-17",
      "slot": 1,
@@ -675,20 +682,18 @@
      "status": "success",
      "message": "uploaded 7698397289534033172",
      "at": "2026-10-19T22:02:20+00:00"
-    },
-    {
-     "date": "2026-10-19",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7675667372111416596",
-     "at": "2026-10-19T00:02:00+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-18",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-17",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-16",
@@ -747,11 +752,6 @@
     },
     {
      "date": "2026-11-05",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-04",
      "uploaded": 2,
      "due": 2
     }
