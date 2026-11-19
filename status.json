@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T23:31:52+00:00",
+ "generated_at": "2026-11-19T00:02:35+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-19T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-19T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
     "pending_retry": 1,
-    "uploaded": 157
+    "uploaded": 158
    },
-   "tracked": 160,
+   "tracked": 161,
    "uploads": [
+    {
+     "tiktok_id": "7690868416416140545",
+     "title": "Feeling back pain? Try this simple stretch for a gentle release and r...",
+     "tiktok_views": 438300,
+     "youtube_id": "dYlh8O6Q-jY",
+     "slot": 2,
+     "at": "2026-11-19T00:02:32+00:00"
+    },
     {
      "tiktok_id": "7709550502165515538",
      "title": "Want to improve your pelvic posture? Try these 2 yoga poses for bette...",
@@ -252,17 +260,16 @@
      "youtube_id": "rX2C6lHtJPU",
      "slot": 1,
      "at": "2026-11-04T22:02:51+00:00"
-    },
-    {
-     "tiktok_id": "7677511081471888661",
-     "title": "Don\u2019t think you\u2019ll complete all these steps in just one day and sudde...",
-     "tiktok_views": 886500,
-     "youtube_id": "G7gDOIS1KqM",
-     "slot": 2,
-     "at": "2026-11-04T00:02:33+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-19",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7690868416416140545",
+     "at": "2026-11-19T00:02:32+00:00"
+    },
     {
      "date": "2026-11-18",
      "slot": 1,
@@ -675,20 +682,18 @@
      "status": "success",
      "message": "uploaded 7698736299909418261",
      "at": "2026-10-20T22:02:11+00:00"
-    },
-    {
-     "date": "2026-10-20",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7690515994699156756",
-     "at": "2026-10-20T00:02:16+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-19",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-18",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-17",
@@ -747,11 +752,6 @@
     },
     {
      "date": "2026-11-06",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-05",
      "uploaded": 2,
      "due": 2
     }
