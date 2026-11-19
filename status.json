@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T11:24:29+00:00",
+ "generated_at": "2026-11-19T22:07:08+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-19T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-11-20T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
     "pending_retry": 1,
-    "uploaded": 158
+    "uploaded": 159
    },
-   "tracked": 161,
+   "tracked": 162,
    "uploads": [
+    {
+     "tiktok_id": "7709873810719116552",
+     "title": "Try this gentle stretch to ease lower back stiffness, release tension...",
+     "tiktok_views": 41300,
+     "youtube_id": "tk3cOQMY6AA",
+     "slot": 1,
+     "at": "2026-11-19T22:07:06+00:00"
+    },
     {
      "tiktok_id": "7690868416416140545",
      "title": "Feeling back pain? Try this simple stretch for a gentle release and r...",
@@ -252,17 +260,16 @@
      "youtube_id": "P2rptzZ790M",
      "slot": 2,
      "at": "2026-11-05T00:02:25+00:00"
-    },
-    {
-     "tiktok_id": "7704352766235249940",
-     "title": "Try this simple morning routine to support regular bowel movements! \u2764...",
-     "tiktok_views": 200200,
-     "youtube_id": "rX2C6lHtJPU",
-     "slot": 1,
-     "at": "2026-11-04T22:02:51+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-19",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7709873810719116552",
+     "at": "2026-11-19T22:07:06+00:00"
+    },
     {
      "date": "2026-11-19",
      "slot": 2,
@@ -675,19 +682,12 @@
      "status": "success",
      "message": "uploaded 7673801239276129557",
      "at": "2026-10-21T00:02:22+00:00"
-    },
-    {
-     "date": "2026-10-20",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7698736299909418261",
-     "at": "2026-10-20T22:02:11+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-11-19",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -756,7 +756,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-10-20"
+   "live_since": "2026-10-21"
   }
  ]
 }
