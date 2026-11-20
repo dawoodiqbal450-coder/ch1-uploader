@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T23:31:24+00:00",
+ "generated_at": "2026-11-20T00:03:10+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-20T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-20T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
     "pending_retry": 1,
-    "uploaded": 159
+    "uploaded": 160
    },
-   "tracked": 162,
+   "tracked": 163,
    "uploads": [
+    {
+     "tiktok_id": "7687562949115923733",
+     "title": "On your demand \u2764\ufe0f An easy seated back-fat exercise for those who find...",
+     "tiktok_views": 435800,
+     "youtube_id": "oaq2ngWqHjs",
+     "slot": 2,
+     "at": "2026-11-20T00:03:09+00:00"
+    },
     {
      "tiktok_id": "7709873810719116552",
      "title": "Try this gentle stretch to ease lower back stiffness, release tension...",
@@ -252,17 +260,16 @@
      "youtube_id": "Y246n6XSjR8",
      "slot": 1,
      "at": "2026-11-05T22:02:29+00:00"
-    },
-    {
-     "tiktok_id": "7701931083192880404",
-     "title": "Want to support your heart health? \u2764\ufe0f Try these 3 simple movements! P...",
-     "tiktok_views": 951900,
-     "youtube_id": "P2rptzZ790M",
-     "slot": 2,
-     "at": "2026-11-05T00:02:25+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-20",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7687562949115923733",
+     "at": "2026-11-20T00:03:09+00:00"
+    },
     {
      "date": "2026-11-19",
      "slot": 1,
@@ -675,20 +682,18 @@
      "status": "success",
      "message": "uploaded 7699170697423195412",
      "at": "2026-10-21T22:02:05+00:00"
-    },
-    {
-     "date": "2026-10-21",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7673801239276129557",
-     "at": "2026-10-21T00:02:22+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-20",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-19",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-18",
@@ -747,11 +752,6 @@
     },
     {
      "date": "2026-11-07",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-06",
      "uploaded": 2,
      "due": 2
     }
