@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:14:29+00:00",
+ "generated_at": "2026-11-20T22:02:15+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-20T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-11-21T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 2,
     "pending_retry": 1,
-    "uploaded": 160
+    "uploaded": 161
    },
-   "tracked": 163,
+   "tracked": 164,
    "uploads": [
+    {
+     "tiktok_id": "7710236027675249938",
+     "title": "Practice these 3 yoga poses to support scalp blood circulation, nouri...",
+     "tiktok_views": 149800,
+     "youtube_id": "fo2ftoQOnkI",
+     "slot": 1,
+     "at": "2026-11-20T22:02:14+00:00"
+    },
     {
      "tiktok_id": "7687562949115923733",
      "title": "On your demand \u2764\ufe0f An easy seated back-fat exercise for those who find...",
@@ -252,17 +260,16 @@
      "youtube_id": "Lz55TsuJbJs",
      "slot": 2,
      "at": "2026-11-06T00:02:46+00:00"
-    },
-    {
-     "tiktok_id": "7704287859397758229",
-     "title": "Gas & bloating? Try these simple yoga poses for relief. \u2764\ufe0f #GasRelief...",
-     "tiktok_views": 2100000,
-     "youtube_id": "Y246n6XSjR8",
-     "slot": 1,
-     "at": "2026-11-05T22:02:29+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-20",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7710236027675249938",
+     "at": "2026-11-20T22:02:14+00:00"
+    },
     {
      "date": "2026-11-20",
      "slot": 2,
@@ -675,19 +682,12 @@
      "status": "success",
      "message": "uploaded 7676061051271564564",
      "at": "2026-10-22T00:02:21+00:00"
-    },
-    {
-     "date": "2026-10-21",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7699170697423195412",
-     "at": "2026-10-21T22:02:05+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-11-20",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -756,7 +756,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-10-21"
+   "live_since": "2026-10-22"
   }
  ]
 }
