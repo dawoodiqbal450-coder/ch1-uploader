@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T23:31:23+00:00",
+ "generated_at": "2026-11-21T00:02:37+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-21T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-21T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
     "pending_retry": 1,
-    "uploaded": 161
+    "uploaded": 162
    },
-   "tracked": 164,
+   "tracked": 165,
    "uploads": [
+    {
+     "tiktok_id": "7688283764677594389",
+     "title": "Can\u2019t touch your toes? \ud83e\uddd8\u200d\u2640\ufe0f Try this simple step regularly to improve...",
+     "tiktok_views": 401000,
+     "youtube_id": "B6Q9tN6k5CA",
+     "slot": 2,
+     "at": "2026-11-21T00:02:35+00:00"
+    },
     {
      "tiktok_id": "7710236027675249938",
      "title": "Practice these 3 yoga poses to support scalp blood circulation, nouri...",
@@ -252,17 +260,16 @@
      "youtube_id": "LekB1U-5qH4",
      "slot": 1,
      "at": "2026-11-06T22:02:21+00:00"
-    },
-    {
-     "tiktok_id": "7700900510597008661",
-     "title": "Want to improve your pelvic posture? \u2728 Practice these yoga poses dail...",
-     "tiktok_views": 888800,
-     "youtube_id": "Lz55TsuJbJs",
-     "slot": 2,
-     "at": "2026-11-06T00:02:46+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-21",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7688283764677594389",
+     "at": "2026-11-21T00:02:35+00:00"
+    },
     {
      "date": "2026-11-20",
      "slot": 1,
@@ -675,20 +682,18 @@
      "status": "success",
      "message": "uploaded 7699509996903517460",
      "at": "2026-10-22T22:06:58+00:00"
-    },
-    {
-     "date": "2026-10-22",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7676061051271564564",
-     "at": "2026-10-22T00:02:21+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-21",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-20",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-19",
@@ -747,11 +752,6 @@
     },
     {
      "date": "2026-11-08",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-07",
      "uploaded": 2,
      "due": 2
     }
