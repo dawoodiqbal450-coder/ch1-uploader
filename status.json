@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T23:31:19+00:00",
+ "generated_at": "2026-11-23T00:03:04+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,23 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-23T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-23T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 2,
     "pending_retry": 1,
-    "uploaded": 165
+    "uploaded": 166
    },
-   "tracked": 168,
+   "tracked": 169,
    "uploads": [
+    {
+     "tiktok_id": "7689023648769789204",
+     "title": "Try this simple movement regularly to support better circulation, mob...",
+     "tiktok_views": 373800,
+     "youtube_id": "zySNVcoHM1g",
+     "slot": 2,
+     "at": "2026-11-23T00:03:02+00:00"
+    },
     {
      "tiktok_id": "7710961447710330119",
      "title": "This video demonstrates a gentle wall stretch targeting the neck and ...",
@@ -252,17 +260,16 @@
      "youtube_id": "3EY5UIpMm2c",
      "slot": 1,
      "at": "2026-11-08T22:02:26+00:00"
-    },
-    {
-     "tiktok_id": "7688674508940545300",
-     "title": "Your organs work 24/7\u2014so give your body a little time too. \u2764\ufe0f Take a ...",
-     "tiktok_views": 848500,
-     "youtube_id": "SEoEOuOuZLc",
-     "slot": 2,
-     "at": "2026-11-08T00:02:58+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-23",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7689023648769789204",
+     "at": "2026-11-23T00:03:02+00:00"
+    },
     {
      "date": "2026-11-22",
      "slot": 1,
@@ -675,20 +682,18 @@
      "status": "success",
      "message": "uploaded 7700223398475042069",
      "at": "2026-10-24T22:03:06+00:00"
-    },
-    {
-     "date": "2026-10-24",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7699673415711558932",
-     "at": "2026-10-24T00:02:35+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-23",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-22",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-21",
@@ -747,11 +752,6 @@
     },
     {
      "date": "2026-11-10",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-09",
      "uploaded": 2,
      "due": 2
     }
