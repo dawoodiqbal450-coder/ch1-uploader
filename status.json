@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T23:31:22+00:00",
+ "generated_at": "2026-11-24T00:02:30+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,15 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-24T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-24T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
-    "failed_permanent": 2,
-    "pending_retry": 1,
-    "uploaded": 167
+    "failed_permanent": 3,
+    "uploaded": 168
    },
-   "tracked": 170,
+   "tracked": 171,
    "uploads": [
+    {
+     "tiktok_id": "7710938901489241352",
+     "title": "Struggling with Anterior Pelvic Tilt? Try this one simple stretch to ...",
+     "tiktok_views": 749800,
+     "youtube_id": "2JzBWIrBYcw",
+     "slot": 2,
+     "at": "2026-11-24T00:02:27+00:00"
+    },
     {
      "tiktok_id": "7711400172227398919",
      "title": "Feeling gassy and bloated after meals? \ud83e\uddd8\u200d\u2640\ufe0f Try these 4 gentle yoga p...",
@@ -252,17 +259,16 @@
      "youtube_id": "K87qEYboOw4",
      "slot": 1,
      "at": "2026-11-09T22:02:23+00:00"
-    },
-    {
-     "tiktok_id": "7687952701350563092",
-     "title": "Spending long hours on your phone, sitting on a chair, or working on ...",
-     "tiktok_views": 849900,
-     "youtube_id": "XZv06q0i_iU",
-     "slot": 2,
-     "at": "2026-11-09T00:02:45+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-24",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7710938901489241352",
+     "at": "2026-11-24T00:02:28+00:00"
+    },
     {
      "date": "2026-11-23",
      "slot": 1,
@@ -675,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7700539191993584948",
      "at": "2026-10-25T22:01:59+00:00"
-    },
-    {
-     "date": "2026-10-25",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7699815007567121685",
-     "at": "2026-10-25T00:02:09+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-24",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-23",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-22",
@@ -747,11 +751,6 @@
     },
     {
      "date": "2026-11-11",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-10",
      "uploaded": 2,
      "due": 2
     }
