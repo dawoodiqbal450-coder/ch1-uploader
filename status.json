@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T23:31:55+00:00",
+ "generated_at": "2026-11-25T00:02:43+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-25T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-25T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 3,
-    "uploaded": 169
+    "uploaded": 170
    },
-   "tracked": 172,
+   "tracked": 173,
    "uploads": [
+    {
+     "tiktok_id": "7711592509809511688",
+     "title": "Yoga for PCOD, PCOS & Irregular Period Support \ud83c\udf38 This video demonstra...",
+     "tiktok_views": 812200,
+     "youtube_id": "lUSYWTpvpn4",
+     "slot": 2,
+     "at": "2026-11-25T00:02:41+00:00"
+    },
     {
      "tiktok_id": "7711639242564242696",
      "title": "Struggling with Anterior Pelvic Tilt? This simple stretching exercise...",
@@ -251,17 +259,16 @@
      "youtube_id": "Nc1xFJXeFYk",
      "slot": 1,
      "at": "2026-11-10T22:01:54+00:00"
-    },
-    {
-     "tiktok_id": "7699796379681525013",
-     "title": "Sciatica or lower back pain? \ud83e\uddd8\u200d\u2640\ufe0f Try this gentle stretch to support ...",
-     "tiktok_views": 854300,
-     "youtube_id": "asTuNVeIx98",
-     "slot": 2,
-     "at": "2026-11-10T00:02:46+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-25",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7711592509809511688",
+     "at": "2026-11-25T00:02:41+00:00"
+    },
     {
      "date": "2026-11-24",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7701005370449267989",
      "at": "2026-10-26T22:02:06+00:00"
-    },
-    {
-     "date": "2026-10-26",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7699491292526415124",
-     "at": "2026-10-26T00:02:37+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-25",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-24",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-23",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-11-12",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-11",
      "uploaded": 2,
      "due": 2
     }
