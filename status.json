@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T12:09:52+00:00",
+ "generated_at": "2026-11-26T22:02:06+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-26T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-11-27T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 3,
-    "uploaded": 172
+    "uploaded": 173
    },
-   "tracked": 175,
+   "tracked": 176,
    "uploads": [
+    {
+     "tiktok_id": "7712454278039833864",
+     "title": "Fix your pelvic posture with this simple stretching exercise. Regular...",
+     "tiktok_views": 366100,
+     "youtube_id": "XGSlrz1v96A",
+     "slot": 1,
+     "at": "2026-11-26T22:02:04+00:00"
+    },
     {
      "tiktok_id": "7712091661848939794",
      "title": "Lord Krishna Yoga Pose Challenge! \ud83e\udd9a Can you recreate this divine pose...",
@@ -251,17 +259,16 @@
      "youtube_id": "VgI2nP0qvG4",
      "slot": 2,
      "at": "2026-11-12T00:02:21+00:00"
-    },
-    {
-     "tiktok_id": "7701909107023891732",
-     "title": "Back pain, neck hump, rounded shoulders, or bad posture? \ud83e\uddd8\u200d\u2640\ufe0f Practic...",
-     "tiktok_views": 122200,
-     "youtube_id": "F4m_MJBZpTE",
-     "slot": 1,
-     "at": "2026-11-11T22:02:11+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-26",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7712454278039833864",
+     "at": "2026-11-26T22:02:04+00:00"
+    },
     {
      "date": "2026-11-26",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7700932073527397653",
      "at": "2026-10-28T00:02:39+00:00"
-    },
-    {
-     "date": "2026-10-27",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7701345066547285269",
-     "at": "2026-10-27T22:02:05+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-11-26",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-10-27"
+   "live_since": "2026-10-28"
   }
  ]
 }
