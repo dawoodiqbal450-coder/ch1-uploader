@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T23:31:19+00:00",
+ "generated_at": "2026-11-26T00:02:09+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-26T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-26T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 3,
-    "uploaded": 171
+    "uploaded": 172
    },
-   "tracked": 174,
+   "tracked": 175,
    "uploads": [
+    {
+     "tiktok_id": "7712091661848939794",
+     "title": "Lord Krishna Yoga Pose Challenge! \ud83e\udd9a Can you recreate this divine pose...",
+     "tiktok_views": 2200000,
+     "youtube_id": "mJ65qS0iGFI",
+     "slot": 2,
+     "at": "2026-11-26T00:02:07+00:00"
+    },
     {
      "tiktok_id": "7712143992615374098",
      "title": "Pelvic Anterior Tilt (APT) \u2013 Try this simple stretch to improve pelvi...",
@@ -251,17 +259,16 @@
      "youtube_id": "F4m_MJBZpTE",
      "slot": 1,
      "at": "2026-11-11T22:02:11+00:00"
-    },
-    {
-     "tiktok_id": "7683062196594609428",
-     "title": "Can\u2019t touch your toes yet? Don\u2019t force it! \ud83e\uddd8\u200d\u2640\ufe0f Practice this seated ...",
-     "tiktok_views": 821600,
-     "youtube_id": "O6h9IRePA8Y",
-     "slot": 2,
-     "at": "2026-11-11T00:02:04+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-26",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7712091661848939794",
+     "at": "2026-11-26T00:02:07+00:00"
+    },
     {
      "date": "2026-11-25",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7701345066547285269",
      "at": "2026-10-27T22:02:05+00:00"
-    },
-    {
-     "date": "2026-10-27",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7698724043062660373",
-     "at": "2026-10-27T00:02:18+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-26",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-25",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-24",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-11-13",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-12",
      "uploaded": 2,
      "due": 2
     }
