@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T23:31:22+00:00",
+ "generated_at": "2026-11-27T00:02:40+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-27T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-27T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 3,
-    "uploaded": 173
+    "uploaded": 174
    },
-   "tracked": 176,
+   "tracked": 177,
    "uploads": [
+    {
+     "tiktok_id": "7712079393169968392",
+     "title": "Simple yoga poses for common health concerns in both men and women. T...",
+     "tiktok_views": 4000000,
+     "youtube_id": "VpQzBALwTr0",
+     "slot": 2,
+     "at": "2026-11-27T00:02:38+00:00"
+    },
     {
      "tiktok_id": "7712454278039833864",
      "title": "Fix your pelvic posture with this simple stretching exercise. Regular...",
@@ -251,17 +259,16 @@
      "youtube_id": "ll_qR_DlNaM",
      "slot": 1,
      "at": "2026-11-12T22:03:07+00:00"
-    },
-    {
-     "tiktok_id": "7677117358577634581",
-     "title": "No yoga pose is mastered in a single day. \ud83e\uddd8\u200d\u2640\ufe0f\u2728 It can take months of...",
-     "tiktok_views": 730600,
-     "youtube_id": "VgI2nP0qvG4",
-     "slot": 2,
-     "at": "2026-11-12T00:02:21+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-27",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7712079393169968392",
+     "at": "2026-11-27T00:02:38+00:00"
+    },
     {
      "date": "2026-11-26",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7701684762171444501",
      "at": "2026-10-28T22:03:25+00:00"
-    },
-    {
-     "date": "2026-10-28",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7700932073527397653",
-     "at": "2026-10-28T00:02:39+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-27",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-26",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-25",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-11-14",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-13",
      "uploaded": 2,
      "due": 2
     }
