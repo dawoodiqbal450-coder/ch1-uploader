@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T11:57:45+00:00",
+ "generated_at": "2026-11-27T22:02:15+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-27T22:00:00+00:00",
-   "next_run_slot": 1,
+   "next_run_utc": "2026-11-28T00:00:00+00:00",
+   "next_run_slot": 2,
    "library": {
     "failed_permanent": 3,
-    "uploaded": 174
+    "uploaded": 175
    },
-   "tracked": 177,
+   "tracked": 178,
    "uploads": [
+    {
+     "tiktok_id": "7712870728915242247",
+     "title": "Want to improve your curved spine posture? Try these 3 simple exercis...",
+     "tiktok_views": 103700,
+     "youtube_id": "XAIOMsiS4pc",
+     "slot": 1,
+     "at": "2026-11-27T22:02:14+00:00"
+    },
     {
      "tiktok_id": "7712079393169968392",
      "title": "Simple yoga poses for common health concerns in both men and women. T...",
@@ -251,17 +259,16 @@
      "youtube_id": "1H5qtcOxiK8",
      "slot": 2,
      "at": "2026-11-13T00:02:24+00:00"
-    },
-    {
-     "tiktok_id": "7707329551793179912",
-     "title": "Constipation? Try these simple morning steps for better digestion and...",
-     "tiktok_views": 53200,
-     "youtube_id": "ll_qR_DlNaM",
-     "slot": 1,
-     "at": "2026-11-12T22:03:07+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-27",
+     "slot": 1,
+     "status": "success",
+     "message": "uploaded 7712870728915242247",
+     "at": "2026-11-27T22:02:14+00:00"
+    },
     {
      "date": "2026-11-27",
      "slot": 2,
@@ -674,19 +681,12 @@
      "status": "success",
      "message": "uploaded 7700504145601531157",
      "at": "2026-10-29T00:02:35+00:00"
-    },
-    {
-     "date": "2026-10-28",
-     "slot": 1,
-     "status": "success",
-     "message": "uploaded 7701684762171444501",
-     "at": "2026-10-28T22:03:25+00:00"
     }
    ],
    "days": [
     {
      "date": "2026-11-27",
-     "uploaded": 1,
+     "uploaded": 2,
      "due": 1
     },
     {
@@ -755,7 +755,7 @@
      "due": 2
     }
    ],
-   "live_since": "2026-10-28"
+   "live_since": "2026-10-29"
   }
  ]
 }
