@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T23:31:19+00:00",
+ "generated_at": "2026-11-28T00:01:59+00:00",
  "retry_window_minutes": 100,
  "channels": [
   {
@@ -12,14 +12,22 @@
     "1": "22:00",
     "2": "00:00"
    },
-   "next_run_utc": "2026-11-28T00:00:00+00:00",
-   "next_run_slot": 2,
+   "next_run_utc": "2026-11-28T22:00:00+00:00",
+   "next_run_slot": 1,
    "library": {
     "failed_permanent": 3,
-    "uploaded": 175
+    "uploaded": 176
    },
-   "tracked": 178,
+   "tracked": 179,
    "uploads": [
+    {
+     "tiktok_id": "7712443080670006546",
+     "title": "Sciatica pain relief try this simple stretching exercise to support g...",
+     "tiktok_views": 372900,
+     "youtube_id": "cfe1VxeVrRg",
+     "slot": 2,
+     "at": "2026-11-28T00:01:57+00:00"
+    },
     {
      "tiktok_id": "7712870728915242247",
      "title": "Want to improve your curved spine posture? Try these 3 simple exercis...",
@@ -251,17 +259,16 @@
      "youtube_id": "JOHRu9k192k",
      "slot": 1,
      "at": "2026-11-13T22:01:42+00:00"
-    },
-    {
-     "tiktok_id": "7698724940631117076",
-     "title": "Can\u2019t do a forward bend? Try these steps! \ud83e\uddd8\u200d\u2640\ufe0f Practice regularly and...",
-     "tiktok_views": 610200,
-     "youtube_id": "1H5qtcOxiK8",
-     "slot": 2,
-     "at": "2026-11-13T00:02:24+00:00"
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-28",
+     "slot": 2,
+     "status": "success",
+     "message": "uploaded 7712443080670006546",
+     "at": "2026-11-28T00:01:57+00:00"
+    },
     {
      "date": "2026-11-27",
      "slot": 1,
@@ -674,20 +681,18 @@
      "status": "success",
      "message": "uploaded 7702090308854598932",
      "at": "2026-10-29T22:02:18+00:00"
-    },
-    {
-     "date": "2026-10-29",
-     "slot": 2,
-     "status": "success",
-     "message": "uploaded 7700504145601531157",
-     "at": "2026-10-29T00:02:35+00:00"
     }
    ],
    "days": [
     {
+     "date": "2026-11-28",
+     "uploaded": 1,
+     "due": 0
+    },
+    {
      "date": "2026-11-27",
      "uploaded": 2,
-     "due": 1
+     "due": 2
     },
     {
      "date": "2026-11-26",
@@ -746,11 +751,6 @@
     },
     {
      "date": "2026-11-15",
-     "uploaded": 2,
-     "due": 2
-    },
-    {
-     "date": "2026-11-14",
      "uploaded": 2,
      "due": 2
     }
